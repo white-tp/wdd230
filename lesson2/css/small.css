@@ -1,0 +1,104 @@
+/* Main Selectors */
+
+a:link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: rgb(107, 222, 136);
+    color: white;
+    text-shadow: 1px 1px black;
+    padding: 10px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+a:visited {
+    color: white;
+}
+
+nav div {
+    text-align: center;
+    background-color: rgb(44, 44, 44); 
+    margin: 5px;  
+}
+
+body {
+    background-color: whitesmoke;
+    font-size: 10px;
+    line-height: 1.5;
+    margin: auto;
+    min-width: 320px;
+}
+
+header, footer {
+    background-color: rgb(107, 222, 136);
+    text-align: center;
+    border: 10px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+h1, h2, h3, h4, p, footer {
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    /* margin: 10px; */
+    font-size: 2rem;
+    align-content: center;
+    justify-content: center;
+    text-shadow: 1.5px 1.5px 5px black;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+    text-shadow: 1.5px 1.5px 5px black;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+h4 {
+    color: aqua;
+}
+
+p {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+li {
+    text-align: left;
+}
+
+footer {
+    padding: 15px;
+    font-weight: bold;
+}
+
+/* ID Selectors */
+
+#proximity, #contrast, #white-space {
+    background-color: dimgray;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px;
+    margin: 5px;
+    justify-items: center;
+    border: 2px solid black;
+}
+
+#modified {
+    color: whitesmoke;
+    text-shadow: 1px 1.5px 1px black;
+}

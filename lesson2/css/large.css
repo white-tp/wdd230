@@ -1,0 +1,13 @@
+@media only screen and (min-width: 60em) {
+    body, header, footer {
+        max-width: 1440px;
+    }
+
+    main {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #white-space {
+        grid-column: span 1;
+    }
+}
