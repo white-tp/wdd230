@@ -64,10 +64,3 @@ footer {
     padding: 15px;
     font-weight: bold;
 }
-
-/* ID Selectors */
-
-#modified {
-    color: whitesmoke;
-    text-shadow: 1px 1.5px 1px black;
-}
