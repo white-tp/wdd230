@@ -12,12 +12,16 @@ a:visited {
   color: white;
 }
 
+nav {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 nav ul {
   list-style-type: none;
   padding-inline-start: 0px;
   font-size: 1.2rem;
   text-align: center;
-  background-color: rgb(44, 44, 44);
+  background-color: #010754;
 }
 
 nav ul li {
@@ -35,7 +39,7 @@ body {
 
 header,
 footer {
-  background-color: rgb(107, 222, 136);
+  background-color: #3f48cc;
   text-align: center;
   border: 10px;
 }
@@ -43,7 +47,6 @@ footer {
 main {
   display: grid;
   grid-template-columns: 1fr;
-  text-align: center;
 }
 
 h1,
@@ -67,13 +70,14 @@ h2 {
   font-size: 2rem;
   padding: 10px;
   text-shadow: 1.5px 1.5px 5px black;
+  margin: 0;
 }
 
 h3 {
   text-align: left;
   padding: 15px;
   margin: 0px;
-  background-color: darkslategray;
+  background-color: #a98714;
 }
 
 h3 {
@@ -83,11 +87,18 @@ h3 {
 p {
   font-size: 1.2rem;
   font-weight: bold;
-  padding: 5px;
+  padding: 15px;
 }
 
 li {
   text-align: center;
+}
+
+ol li {
+    text-align: left;
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 img {
@@ -103,6 +114,54 @@ footer {
   font-weight: bold;
 }
 
+/* Class Selectors */
+
+.head-foot {
+    background-color: #3f48cc;
+    max-width: 400px;
+}
+
+.nav {
+    background-color: #010754;
+    max-width: 400px;
+}
+
+.hover {
+    background-color: #a98714;
+    max-width: 400px;
+}
+
+.sample1,
+.sample2,
+.sample3,
+.sample4,
+.sample5 {
+    max-width: 400px;
+}
+
+
+.sample1 {
+    background-color: #3f48cc;
+    font-size: 40px;
+}
+.sample2 {
+    background-color: #3f48cc;
+    font-size: 30px;
+}
+.sample3 {
+    background-color: #a98714;
+    font-size: 20px;
+}
+.sample4 {
+    background-color: #010754;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.sample5 {
+    font-size: 20px;
+}
+
 /* Media Queries */
 
 @media screen and (min-width: 37.5em) {
@@ -116,11 +175,18 @@ footer {
     flex: 1 1 auto;
   }
   a:hover {
-    background-color: rgb(107, 222, 136);
+    background-color: #a98714;
     color: white;
     text-shadow: 1px 1px black;
     font-weight: bold;
   }
+  .sample1,
+.sample2,
+.sample3,
+.sample4,
+.sample5 {
+    margin-left: 400px;
+}
 }
 
 @media screen and (min-width: 60em) {
