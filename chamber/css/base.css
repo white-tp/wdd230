@@ -1,0 +1,100 @@
+/* Main Selectors */
+
+nav {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #a98714;
+}
+
+ body { 
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-color: whitesmoke;
+  font-size: 10px;
+  line-height: 1.5;
+  margin: auto;
+  min-width: 320px;
+}
+
+header,
+footer {
+  background-color: #3f48cc;
+  border: 10px;
+}
+
+main { 
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+h1,
+h2,
+h3,
+p,
+footer {
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  margin: 0 2vw;
+  font-size: 3rem;
+  text-shadow: 1.5px 1.5px 5px black;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2rem;
+  padding: 10px;
+  text-shadow: 1.5px 1.5px 5px black;
+  margin: 0 2vw;
+}
+
+h3 {
+  text-align: left;
+  padding: 15px;
+  margin: 0px;
+  background-color: #a98714;
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 15px;
+}
+
+img {
+  display: flex;
+  justify-content: left;
+  max-width: 200px;
+  height: auto;
+  border: 1px solid gray;
+  margin: 3px;
+}
+
+footer {
+  text-align: center;
+  font-size: 1rem;
+  padding: 15px;
+  font-weight: bold;
+}
+
+
+/* Class Selectors */
+
+.date {
+  font-size: 1.5rem;
+  margin-left: 20px;
+  margin-top: 50px;
+	background-color: #3f48cc;
+}
+
+.myLinks.active {
+  display: none;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #2980B9;
+  color: white;
+}
