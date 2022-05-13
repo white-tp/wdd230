@@ -2,7 +2,17 @@
 
 nav {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #a98714;
+  background-color: #3f48cc;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-inline-start: 5px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
 }
 
  body { 
@@ -63,10 +73,8 @@ p {
   padding: 15px;
 }
 
-img {
-  display: flex;
-  justify-content: left;
-  max-width: 200px;
+picture img {
+  width: 80px;
   height: auto;
   border: 1px solid gray;
   margin: 3px;
@@ -79,22 +87,27 @@ footer {
   font-weight: bold;
 }
 
+/* ID Selctors */
+
+#date {
+  display: flex;
+  font-size: 1.5rem;
+  margin: 5px;
+  border: 2px solid #a98714;
+  background-color: #3f48cc;
+  justify-content: center;	
+}
 
 /* Class Selectors */
 
-.date {
-  font-size: 1.5rem;
-  margin-left: 20px;
-  margin-top: 50px;
-	background-color: #3f48cc;
-}
-
-.myLinks.active {
+.myLinks {
   display: none;
 }
 
-/* Style the active link (or home/logo) */
 .active {
-  background-color: #2980B9;
+  background-color: #3f48cc;
   color: white;
+  font-weight: bold;
+  border-color: #a98714;
+  padding: 10px;
 }

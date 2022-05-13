@@ -9,3 +9,5 @@ function menuToggle() {
   
   const hamburger = document.getElementById('hamburger');
   hamburger.addEventListener('click', menuToggle);
+  const element = document.getElementById("myLinks")
+  element.classList.toggle("myLinks");
