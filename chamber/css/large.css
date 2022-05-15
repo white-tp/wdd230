@@ -1,5 +1,8 @@
 @media only screen and (min-width: 64rem) {
-
-
+    
+    .navigation a:hover {
+        color: white;
+        background-color: black;
+    }
 
 }
