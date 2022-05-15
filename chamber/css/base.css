@@ -72,7 +72,7 @@ p {
 }
 
 picture img {
-  width: 100px;
+  width: 150px;
   height: auto;
   border: 1px solid gray;
   margin: 3px;
@@ -103,8 +103,17 @@ footer {
 
 /* Class Selectors */
 
+.logo {
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+
 .social {
   list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 30px;
 }
 
 .social a {
@@ -142,4 +151,47 @@ footer {
 
 .responsive a.ham::before {
 	content: "❌";
+}
+
+.hero {
+  border: 1px solid black;
+  padding: 4em;
+}
+
+.news {
+  border: 1px solid black;
+  padding: 4em;
+}
+
+.event {
+  border: 1px solid black;
+  padding: 4em;
+}
+
+.weather {
+  border: 1px solid black;
+  padding: 4em;
+}
+
+.join {
+  border: 1px solid black;
+  padding: 4em;
+}
+
+.spotlight {
+  border: 1px solid black;
+  padding: 4em;
+}
+
+.spot {
+  border: 1px solid black;
+  padding: 2em;
+}
+
+.map {
+  color: black;
+}
+
+.map:visited {
+  color: black;
 }
