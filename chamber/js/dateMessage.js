@@ -2,8 +2,6 @@ const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Sa
 
 const d = new Date();
 let day = weekday[d.getDay()];
-// let day = "Tuesday"
-console.log(day)
 
 switch(day) {
     case "Sunday":
