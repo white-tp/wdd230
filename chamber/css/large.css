@@ -24,20 +24,8 @@
         flex: 1 1 auto;
       }
 
-    .navigation {
-        background-color: #010754;
-        color: white;
-    }
-
     .navigation a:visited {
         color: white;
-    }
-
-    .navigation a:hover {
-        background-color: #a98714;
-        color: white;
-        text-shadow: 1px 1px black;
-        font-weight: bold;
     }
 
     .hero {

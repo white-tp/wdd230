@@ -102,7 +102,7 @@ footer {
   padding: 5px;
   font-size: 1.5rem;
   font-weight: 700;
-  margin: 5px #3f48cc;
+  margin: 5px;
   border: 2px solid #a98714;
   background-color: #3f48cc;
   justify-content: center;	
@@ -257,10 +257,13 @@ a.join2 {
   grid-column: -1;
 }
 
-.spot {
+.spot1,
+.spot2,
+.spot3 {
   border: 1px solid black;
   padding: 3em;
-  margin: 5px;
+  margin: 15px;
+  box-shadow: 2px 2px #010754;
 }
 
 a.map,
