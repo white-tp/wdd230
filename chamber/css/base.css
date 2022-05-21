@@ -90,6 +90,9 @@ footer {
   font-weight: 700;
   padding: 5px;
   background-color: #a98714;
+  min-width: fit-content;
+  margin: auto;
+  text-align: center;
 }
 
 /* Class Selectors */
@@ -98,6 +101,7 @@ footer {
   display: flex;
   padding: 5px;
   font-size: 1.5rem;
+  font-weight: 700;
   margin: 5px #3f48cc;
   border: 2px solid #a98714;
   background-color: #3f48cc;
