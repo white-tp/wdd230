@@ -1,4 +1,15 @@
 @media only screen and (min-width: 40rem) {
+	
+	h1 {
+		padding-left: 20px;
+	}
+
+	.social {
+		position: absolute;
+		top: 20px;
+		left: 80%;
+	}
+	
 	.navigation {
 		display: flex;
 	}

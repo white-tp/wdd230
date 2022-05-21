@@ -22,11 +22,13 @@
     <title>Chamber of Commerce Home Page</title>
   </head>
   <header>
+    <div><span id="announce"></span></div>
     <div class="logo">
       <picture>
         <img src="images/richland-acoc-logo.jpg" alt="West Richland Commerce Logo">
       </picture>
-      <h1>West Richland Area Chamber of Commerce</h1>
+      <h1>West Richland</h1>
+      <h2>Area Chamber of Commerce</h2>
       <div class="social">
         <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img src="images/facebook.png" alt="FaceBook Logo Link"></a>
         <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><img src="images/linkedin.png" alt="Linkedin Logo Link"></a>
@@ -36,10 +38,11 @@
     <nav>
       <ul class="navigation">
         <li><a class="ham" href="#"></a></li>
-        <li><a href="#discover.html">Discover</a></li>
-        <li><a href="#directory.html">Directory</a></li>
-        <li><a href="#join-us.html">Join Us</a></li>
-        <li><a href="#contact.html">Contact</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
     <div class="datetracker">
@@ -47,11 +50,25 @@
     </div>
   </header>
   <main>
-    <div class="hero">Hero with site in the name and call to action</div>
-    <article class="news">News</article>
     <div class="event">Event(s)</div>
+    <div class="hero">
+      <h2>Welcome to West Richland</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam doloremque numquam alias quo fugit excepturi suscipit cupiditate minus voluptatem, illum similique nobis nulla ad dignissimos ab ratione molestias exercitationem! Nisi.</p>
+      <a class="join1" href="join.html">Join Us!</a>
+    </div>
     <div class="weather">Weather</div>
-    <div class="join">Join</div>
+    <div class="join">
+      <a class="join2" href="join.html">Join Us!</a>
+      <p>
+        Discover how to join the Chamber of Commerce and how it will benefit your organization!
+      </p>
+    </div>
+    <article class="news">
+      <h2>News Release</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia ipsam debitis ut consequuntur, laudantium repellendus magni? Et sed, impedit provident magni vero nam modi quod quibusdam, nostrum perferendis dolore optio.
+      </p>
+    </article>
     
     <div class="spotlight">
       <div class="spot">Spotlight 1</div>
@@ -68,11 +85,11 @@
       <h2>West Richland Area Chamber of Commerce</h2>
     </div>
     <div>
-      <p>
-      &#10031;<a class="map" href="https://goo.gl/maps/E5gPJoNePdmaU7hT8" target="_blank" rel="noopener noreferrer">331 S. 41st Ave PO Box 4023 West Richland, WA 99353</a><br>
-      Phone: (509) 967-0521<br>
-      Email: wrcc@westrichlandchamber.org
-      </p>
+      <h3>
+      🚩<a class="map" href="https://goo.gl/maps/E5gPJoNePdmaU7hT8" target="_blank" rel="noopener noreferrer">331 S. 41st Ave PO Box 4023 West Richland, WA 99353</a><br>
+      📞<a class="phone" href="tel:5099670521">Phone: (509) 967-0521</a><br>
+      📧<a class="email" href = "mailto: wrcc@westrichlandchamber.org">Email: wrcc@westrichlandchamber.org</a>
+      </h3>
     </div>
   </footer>
   <footer>
@@ -82,5 +99,6 @@
   <script src="js/currentDateAndTime.js"></script>
   <script src="../js/year.js"></script>
   <script src="../js/lastmodified.js"></script>
+  <script src="js/dateMessage.js"></script>
 </body>
 </html>
