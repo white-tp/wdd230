@@ -117,8 +117,8 @@ footer {
 .social {
   list-style-type: none;
   position: absolute;
-  top: 110px;
-  left: 55%;
+  top: 90px;
+  left: 72%;
   padding-left: 30px;
 }
 
@@ -152,7 +152,7 @@ footer {
 	font-size: clamp(1rem, 2vmin, 1.5rem);
 }
 
-.navigation a.ham::before {
+.navigation span.ham::before {
 	content: "🍔 Menu";
   color: antiquewhite;
 }
@@ -161,7 +161,7 @@ footer {
 	display: block;
 }
 
-.responsive a.ham::before {
+.responsive span.ham::before {
 	content: "❌ Close";
 }
  
@@ -194,7 +194,7 @@ footer {
 }
 
 .hero {
-  background-image: url("/chamber/images/west-richland-city-view-bi.JPG");
+  /* background-image: url("images/west-richland-city-view-bi.jpg"); */
   border: 1px solid black;
   padding: 1em;
 }
@@ -260,6 +260,24 @@ a.join2 {
 .spot3 img {
   max-width: 100px;
   display: flex;
+}
+
+.spot3 {
+  display: none;
+}
+
+.weather span {
+  color: white;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.event a {
+  list-style-type: none;
+  color: white;
+  padding-left: 20px;
+  white-space: nowrap;
 }
 
 a.map,

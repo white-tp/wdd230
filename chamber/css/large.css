@@ -14,6 +14,34 @@
 		left: 85%;
 	}
     
+
+  .navigation {
+		display: flex;
+		background-color: #010754;
+        color: white;
+	}
+
+	.navigation a:hover {
+        background-color: #a98714;
+        color: white;
+        text-shadow: 1px 1px black;
+        font-weight: bold;
+    }
+
+	.navigation li {
+		display: block; /* change state in small view */
+		flex: 1 1 auto;
+	}
+
+	.navigation a {
+		text-align: center;
+		color:antiquewhite;
+	}
+
+	.navigation span.ham::before {
+		display: none;
+	}
+  
     nav ul {
         display: flex;
         font-size: 1.2rem;
@@ -70,6 +98,10 @@
         position: relative;
         left: 19%;
         top: 5%;
+    }
+
+    .spot3 {
+      display: block;
     }
 
 }

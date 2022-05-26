@@ -9,32 +9,5 @@
 		top: 20px;
 		left: 80%;
 	}
-	
-	.navigation {
-		display: flex;
-		background-color: #010754;
-        color: white;
-	}
-
-	.navigation a:hover {
-        background-color: #a98714;
-        color: white;
-        text-shadow: 1px 1px black;
-        font-weight: bold;
-    }
-
-	.navigation li {
-		display: block; /* change state in small view */
-		flex: 1 1 auto;
-	}
-
-	.navigation a {
-		text-align: center;
-		color:antiquewhite;
-	}
-
-	.navigation li:first-child {
-		display: none;
-	}
 
 }
