@@ -193,6 +193,13 @@ footer {
   text-shadow: 1.5px 1.5px 5px #a98714;
 }
 
+.hero picture img {
+  display: inline-flex;
+  flex-direction: row;
+  width: fit-content;
+  max-width: 500px;
+}
+
 .hero {
   /* background-image: url("images/west-richland-city-view-bi.jpg"); */
   border: 1px solid black;
