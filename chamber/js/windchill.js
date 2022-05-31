@@ -11,3 +11,4 @@ else {
 
 document.getElementById("chill").innerHTML += `Wind Chill: ${chill}&deg;`;
 document.getElementById("temperature").innerHTML += `Temperature: ${temperature}&deg;`;
+document.getElementById("windspeed").innerHTML += `Wind speed: ${windspeed} mi/hr`;

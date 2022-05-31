@@ -88,6 +88,10 @@ footer {
   text-align: center;
 }
 
+#border {
+  border-bottom: 1px solid #010754;
+}
+
 /* Class Selectors */
 
 picture img.pic-logo {
