@@ -112,6 +112,11 @@ picture img.pic-logo {
   margin: 3px;
 }
 
+h1.error {
+  color: red;
+  text-shadow: 1px 1px  #010754;
+}
+
 .datetracker {
   display: flex;
   padding: 5px;

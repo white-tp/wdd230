@@ -19,8 +19,88 @@
       content="Chamber of Commerce website for my WDD230-04 course at BYU-Idaho Online Program."
     />
     <meta name="author" content="Tylor Perry" />
-    <title>Chamber of Commerce Home Page</title>
+    <title>Chamber of Commerce Directory Page</title>
   </head>
+  <header>
+    <div class="logo">
+      <picture>
+        <img class="pic-logo" src="images/richland-acoc-logo.webp" alt="West Richland Commerce Logo">
+      </picture>
+      <h1>West Richland</h1>
+      <h2>Area Chamber of Commerce</h2>
+      <div class="social">
+        <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img src="images/facebook.png" alt="FaceBook Logo Link"></a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer"><img src="images/linkedin.png" alt="Linkedin Logo Link"></a>
+      </div>
+    </div>
+
+    <nav>
+      <ul class="navigation">
+        <li><span class="ham"></span></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div id="announce"></div>
+    <div class="datetracker">
+      <span id="date"></span>
+    </div>
+  </header>
   <main>
-    <p>I don't Exist Yet...</p>
+
+    <picture>
+      <img src="..\lesson7\images\placeholder300x400.webp" data-src="images/walmart-building.webp" alt="Placeholder image that is replaced by photo of Walmart.">
+      <figcaption>Walmart Store Front of the Richland Store.</figcaption>
+    </picture>
+    <picture>
+      <img src="..\lesson7\images\placeholder300x400.webp" data-src="images/gesa-img.webp" alt="Placeholder image that is replaced by photo of Gesa Credit Union.">
+      <figcaption>West Richland Branch of Gesa Credit Union.</figcaption>
+    </picture>
+    <picture>
+      <img src="..\lesson7\images\placeholder300x400.webp" data-src="images/home-depot-img.webp" alt="Placeholder image that is replaced by photo of Home Depot.">
+      <figcaption>West Richland Home Depot Store Front.</figcaption>
+    </picture>
+    <picture>
+      <img src="..\lesson7\images\placeholder300x400.webp" data-src="images/queensgate-cinema-img.webp" alt="Placeholder image that is replaced by photo of Queensgate Movie Theater.">
+      <figcaption>West Richland Local Queensgate Fairchild Cinema.</figcaption>
+    </picture>
+    <picture>
+      <img src="..\lesson7\images\placeholder300x400.webp" data-src="images/habits-burgers-img.webp" alt="Placeholder image that is replaced by photo of Habits Burgers.">
+      <figcaption>West Richland Habits Burger Chain Store.</figcaption>
+    </picture>
+
+    <div class="counter">
+      <span id="visits-num"></span>
+    </div>
+
   </main>
+
+  <footer class="footer1">
+    <div class="logo">
+      <picture>
+        <img class="pic-logo" src="images/richland-acoc-logo.webp" alt="West Richland Commerce Logo">
+      </picture>
+      <h2>West Richland Area Chamber of Commerce</h2>
+    </div>
+    <div>
+      <h3>
+      🚩<a class="map" href="https://goo.gl/maps/E5gPJoNePdmaU7hT8" target="_blank" rel="noopener noreferrer">331 S. 41st Ave PO Box 4023 West Richland, WA 99353</a><br>
+      📞<a class="phone" href="tel:5099670521">Phone: (509) 967-0521</a><br>
+      📧<a class="email" href = "mailto:wrcc@westrichlandchamber.org">Email: wrcc@westrichlandchamber.org</a>
+      </h3>
+    </div>
+  </footer>
+  <footer>
+    .:| &copy; <span id="year"></span> Richland Area Chamber of Commerce | Tylor Perry | WDD230 Project | Last Modified: <span id="modified"></span> |:.
+  </footer>
+  <script src="js/toggleMenu.js"></script>
+  <script src="js/currentDateAndTime.js"></script>
+  <script src="../js/year.js"></script>
+  <script src="../js/lastmodified.js"></script>
+  <script src="js/dateMessage.js"></script>
+  <script src="../lesson7/scripts/lazyImages.js"></script>
+</body>
+</html>
