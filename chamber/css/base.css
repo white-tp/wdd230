@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'hylia_serif_betaregular';
+  src: url('../fonts/hyliaserifbeta-regular-webfont.woff2') format('woff2'),
+       url('../fonts/hyliaserifbeta-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* Main Selectors */
 
 nav {
@@ -114,8 +122,10 @@ picture img {
   text-shadow: 1px 1px #a98714;
 }
 
-.counter {
+.counter p {
+  font-family: 'hylia_serif_betaregular', sans-serif;
   border: 1px solid #010754;
+  font-size: 30px;
 }
 
 picture img.pic-logo {
