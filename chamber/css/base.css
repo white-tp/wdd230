@@ -9,7 +9,7 @@ nav {
 
  body { 
   min-height: 100vh;
-  background-color: whitesmoke;
+  background-color: lightgray;
   font-size: 16px;
   line-height: 1.5;
   margin: auto;
@@ -91,6 +91,15 @@ picture img {
  transition: filter 0.5s;
 }
 
+figcaption {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 1.4rem;
+  padding-left: 15px;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px #a98714;
+}
+
 /* ID Selectors */
 
 #announce {
@@ -105,6 +114,10 @@ picture img {
 
 /* Class Selectors */
 
+.counter {
+  border: 1px solid #010754;
+}
+
 picture img.pic-logo {
   width: 100px;
   height: auto;
@@ -115,6 +128,12 @@ picture img.pic-logo {
 h1.error {
   color: red;
   text-shadow: 1px 1px  #010754;
+}
+
+h3.about-h3 {
+  font-weight: 700;
+  font-size: 5rem;
+  text-decoration: underline;
 }
 
 .datetracker {

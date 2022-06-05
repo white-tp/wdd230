@@ -19,7 +19,7 @@
       content="Chamber of Commerce website for my WDD230-04 course at BYU-Idaho Online Program."
     />
     <meta name="author" content="Tylor Perry" />
-    <title>Chamber of Commerce Directory Page</title>
+    <title>Chamber of Commerce Discover Page</title>
   </head>
   <header>
     <div class="logo">
@@ -49,31 +49,62 @@
       <span id="date"></span>
     </div>
   </header>
-  <main>
+  <main class="discover">
+
+    <div class="discover-img">
+    <picture>
+      <img src="images/placeholder-400x300.webp" data-src="images/walmart-building.webp" alt="Placeholder image that is replaced by photo of Walmart.">
+    </picture>
+    <figcaption>Walmart Store Front of the Richland Store.</figcaption>
 
     <picture>
-      <img src="..\lesson7\images\placeholder300x400.webp" data-src="images/walmart-building.webp" alt="Placeholder image that is replaced by photo of Walmart.">
-      <figcaption>Walmart Store Front of the Richland Store.</figcaption>
+      <img src="images/placeholder-400x300.webp" data-src="images/gesa-img.webp" alt="Placeholder image that is replaced by photo of Gesa Credit Union.">  
     </picture>
+    <figcaption>West Richland Branch of Gesa Credit Union.</figcaption>
+    
     <picture>
-      <img src="..\lesson7\images\placeholder300x400.webp" data-src="images/gesa-img.webp" alt="Placeholder image that is replaced by photo of Gesa Credit Union.">
-      <figcaption>West Richland Branch of Gesa Credit Union.</figcaption>
+      <img src="images/placeholder-400x300.webp" data-src="images/home-depot-img.webp" alt="Placeholder image that is replaced by photo of Home Depot.">    
     </picture>
+    <figcaption>West Richland Home Depot Store Front.</figcaption>
+
     <picture>
-      <img src="..\lesson7\images\placeholder300x400.webp" data-src="images/home-depot-img.webp" alt="Placeholder image that is replaced by photo of Home Depot.">
-      <figcaption>West Richland Home Depot Store Front.</figcaption>
+      <img src="images/placeholder-400x300.webp" data-src="images/queensgate-cinema-img.webp" alt="Placeholder image that is replaced by photo of Queensgate Movie Theater.">
     </picture>
+    <figcaption>West Richland Local Queensgate Fairchild Cinema.</figcaption>
+    
     <picture>
-      <img src="..\lesson7\images\placeholder300x400.webp" data-src="images/queensgate-cinema-img.webp" alt="Placeholder image that is replaced by photo of Queensgate Movie Theater.">
-      <figcaption>West Richland Local Queensgate Fairchild Cinema.</figcaption>
+      <img src="images/placeholder-400x300.webp" data-src="images/habits-burgers-img.webp" alt="Placeholder image that is replaced by photo of Habits Burgers.">  
     </picture>
-    <picture>
-      <img src="..\lesson7\images\placeholder300x400.webp" data-src="images/habits-burgers-img.webp" alt="Placeholder image that is replaced by photo of Habits Burgers.">
-      <figcaption>West Richland Habits Burger Chain Store.</figcaption>
-    </picture>
+    <figcaption>West Richland Habits Burger Chain Store.</figcaption>
+    </div>
+
+    <h3 class="about-h3">About</h3>
+    <p>
+      ✅ In 2019, West Richland, WA had a population of 14.5k people with a median age of 36.6 and a median household income of $99,817. Between 
+      2018 and 2019 the population of West Richland, WA grew from 14,187 to 14,495, a 2.17% increase and its median household income grew from 
+      $92,952 to $99,817, a 7.39% increase.
+    </p>
+    <p>
+      ✅ The 5 largest ethnic groups in West Richland, WA are White (Non-Hispanic) (79.8%), White (Hispanic) (6.84%), Other (Hispanic) (4.88%),
+      Two+ (Non-Hispanic) (3.61%), and Asian (Non-Hispanic) (1.56%). 0% of the households in West Richland, WA speak a non-English language 
+      at home as their primary language.
+    </p>
+    <p>  
+      ✅ 97.3% of the residents in West Richland, WA are U.S. citizens.
+      In 2019, the median property value in West Richland, WA was $270,500, and the homeownership rate was 84.1%. Most people in 
+      West Richland, WA drove alone to work, and the average commute time was 22.8 minutes. The average car ownership in West Richland, WA 
+      was 2 cars per household.
+    </p>
+    <p>
+      Information source: Data USA --- https://datausa.io/profile/geo/west-richland-wa
+    </p>
 
     <div class="counter">
-      <span id="visits-num"></span>
+      <p>
+        How many times have you visited this site: <span id="visits-num"></span>
+        <br>
+        Today in Unix is: <span class="today"></span> milliseconds
+      </p>
     </div>
 
   </main>
@@ -102,5 +133,6 @@
   <script src="../js/lastmodified.js"></script>
   <script src="js/dateMessage.js"></script>
   <script src="../lesson7/scripts/lazyImages.js"></script>
+  <script src="js/visit-counter.js"></script>
 </body>
 </html>

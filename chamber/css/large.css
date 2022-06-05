@@ -7,6 +7,16 @@
     gap: 10px;
   }
 
+  main.discover {
+    display:block;
+  }
+
+  .discover-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .social {
     position: absolute;
     top: 20px;
