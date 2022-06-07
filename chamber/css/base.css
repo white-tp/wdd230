@@ -113,12 +113,18 @@ picture img {
 
 /* Class Selectors */
 
+.discover-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .discover-img p {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   font-size: 1.4rem;
-  padding-left: 15px;
-  margin-bottom: 10px;
+  padding: 0;
+  margin: 0;
   text-shadow: 1px 1px #a98714;
 }
 
