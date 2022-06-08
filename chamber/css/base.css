@@ -172,6 +172,13 @@ h1.error {
   text-shadow: 1px 1px  #010754;
 }
 
+.error-msg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 h3.about-h3 {
   font-weight: 700;
   font-size: 5rem;
