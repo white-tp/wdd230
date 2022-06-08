@@ -101,11 +101,11 @@ picture img {
 
 :root {
   
-  --back: #3f48cc;
+  --back: #a98714;
   --foredark: hsla(0,0%,10%,1);
   --border: hsl(0,0%,20%);
-  --borderlight: rgb(0, 0, 0);
-  --shadow: rgb(0, 0, 0);
+  --borderlight: rgb(200, 200, 200);
+  --shadow: rgb(171, 171, 171);
 }
 
 table {
@@ -363,7 +363,7 @@ a.join2 {
 
 .weather thead tr th {
   font-size: 40px;
-  font-family: 'hylia_serif_betaregular', sans-serif;
+  font-family: 'Lato', sans-serif;
   text-shadow: 1px 1px white;
 }
 
@@ -377,7 +377,6 @@ a.join2 {
 .weather span {
   font-size: 25px;
   font-family: 'Lato', sans-serif;
-  color: white;
 }
 
 .event a {
