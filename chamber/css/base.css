@@ -99,6 +99,32 @@ picture img {
  transition: filter 0.5s;
 }
 
+:root {
+  
+  --back: #3f48cc;
+  --foredark: hsla(0,0%,10%,1);
+  --border: hsl(0,0%,20%);
+  --borderlight: rgb(0, 0, 0);
+  --shadow: rgb(0, 0, 0);
+}
+
+table {
+margin: 10px auto;
+border: thin solid var(--border);
+box-shadow: 0 0 30px var(--shadow);
+border-collapse: collapse;
+}
+
+th, td {
+padding: 7px 15px;
+border: 1px solid var(--borderlight);
+background-color: var(--back);
+}
+
+td {
+text-align: center;
+}
+
 /* ID Selectors */
 
 #announce {
@@ -252,13 +278,13 @@ h3.about-h3 {
   display: inline-flex;
   flex-direction: row;
   width: fit-content;
-  max-width: 300px;
+  max-width: 400px;
   margin-left: 10px;
   margin-top: 20px;
 }
 
 .hero {
-  /* background-image: url("images/west-richland-city-view-bi.jpg"); */
+  /* background-image: url("../images/west-richland-city-view-bi.jpg"); */
   border: 1px solid black;
   padding: 1em;
 }
@@ -275,7 +301,7 @@ h3.about-h3 {
 
 .weather {
   border: 1px solid black;
-  padding: 4em;
+  padding: .5em;
 }
 
 .border {
@@ -294,7 +320,7 @@ a.join1 {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   background-color: #010754;
-  padding: 5px;
+  padding: 5px 20px;
   margin-left: 10px;
   box-shadow: 2px 2px #3f48cc;
 }
@@ -306,8 +332,7 @@ a.join2 {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   background-color: blue;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 10px 30px;
   box-shadow: 2px 2px #010754;
 }
 
@@ -336,11 +361,23 @@ a.join2 {
   display: none;
 }
 
-.weather span {
-  color: white;
-  font-size: 20px;
+.weather thead tr th {
+  font-size: 40px;
+  font-family: 'hylia_serif_betaregular', sans-serif;
+  text-shadow: 1px 1px white;
+}
+
+.weather td,
+.weather th {
   font-family: 'Lato', sans-serif;
+  font-size: 25px;
   font-weight: 700;
+}
+
+.weather span {
+  font-size: 25px;
+  font-family: 'Lato', sans-serif;
+  color: white;
 }
 
 .event a {

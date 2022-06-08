@@ -9,6 +9,6 @@ else {
     chill = NaN;
 }
 
-document.getElementById("chill").innerHTML += `Wind Chill: ${chill}&deg;`;
-document.getElementById("temperature").innerHTML += `Temperature: ${temperature}&deg;`;
-document.getElementById("windspeed").innerHTML += `Wind speed: ${windspeed} mi/hr`;
+document.getElementById("chill").innerHTML += `${chill}&deg;`;
+document.getElementById("temperature").innerHTML += `${temperature}&deg;`;
+document.getElementById("windspeed").innerHTML += `${windspeed} mi/hr`;

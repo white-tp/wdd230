@@ -72,15 +72,27 @@
       </picture>
     </div>
     <div class="weather">
-      <h2>
-       🔆 Weather
-      </h2>
-      <span id="temperature"></span><br>
-      <span class="border">--------------------</span><br>
-      <span id="windspeed"></span><br>
-      <span class="border">--------------------</span><br>
-      <span id="chill"></span><br>
-      <span class="border">--------------------</span>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="2" scope="colgroup">🔆 Weather</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Temperature:</td>
+            <td><span id="temperature"></span></td>
+          </tr>
+          <tr>
+            <td>Windspeed:</td>
+            <td><span id="windspeed"></span></td>
+          </tr>
+          <tr>
+            <td>Wind Chill:</td>
+            <td><span id="chill"></span></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
     <div class="join">
       <a class="join2" href="join.html">Join Us!</a>
