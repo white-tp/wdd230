@@ -129,9 +129,9 @@ text-align: center;
 
 form fieldset {
   margin: 2rem 0;
-  border: 1px solid #445ba9;
+  border: 2px solid #445ba9;
   border-radius: 10px;
-  padding: .5rem 2%;
+  padding: .5rem;
 }
 
 form legend {
@@ -269,7 +269,7 @@ h3.about-h3 {
 .social {
   list-style-type: none;
   position: absolute;
-  top: 90px;
+  top: 130px;
   left: 65%;
   padding-left: 30px;
 }

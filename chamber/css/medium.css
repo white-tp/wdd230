@@ -10,13 +10,15 @@
 		left: 80%;
 	}
 
-	/* .hero picture img {
-		display: inline-flex;
-		flex-direction: row;
-		width: fit-content;
-		max-width: 500px;
-		margin-left: 10px;
-		margin-top: 20px;
-	  } */
+	.member-bens {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		margin: 30px;
+	  }
+	  
+	  .member-bens h1, p {
+		color: #010754;
+	  }
 
 }
