@@ -11,6 +11,17 @@
     display:block;
   }
 
+  .member-bens {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 30px;
+  }
+  
+  .member-bens h1, p {
+    color: #010754;
+  }
+  
   .social {
     position: absolute;
     top: 20px;

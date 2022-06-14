@@ -197,7 +197,11 @@ form label.top input:required:valid {
   text-align: center;
 }
 
-/* Class Selectors */
+/*----------Class Selectors-----------*/
+
+.member-bens {
+  display: none;
+}
 
 .discover-img {
   display: flex;
