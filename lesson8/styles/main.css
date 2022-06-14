@@ -48,10 +48,6 @@ tfoot {
 	color: var(--foredark);
 }
 
-.b-friday {
-    font-style: italic;
-}
-
 .goal {
     background-color: rgba(50, 38, 115, 0.9);
     color: white;
