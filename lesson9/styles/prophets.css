@@ -1,0 +1,98 @@
+/* ------ROOT VARIABLE SELECTORS------ */
+:root {
+    --back: rgb(0, 0, 0);
+    --back2: rgb(0, 64, 123);
+    --color: #ffc481;
+    --border: rgb(0, 0, 0);
+    --shadow: rgb(27, 27, 27);
+    --font1: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --font2: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* ------MAIN SELECTORS------ */
+
+body{
+    max-width: 400px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--back2);
+}
+
+h1 {
+    font-family: var(--font1);
+    color: var(--color);
+    background-color: var(--back);
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    color: var(--color);
+    margin-top: 30px;
+}
+
+h3, h4 {
+    font-family: var(--font2);
+    font-weight: 700;
+    color: var(--color);
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+    padding: 10px;
+    color: var(--color);
+    font-weight: 700;
+    font-family: var(--font1);
+    background-color: var(--back);
+}
+
+
+/* ------CLASS SELECTORS------ */
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 20px;
+    margin: 20px;
+    padding: 10px;
+    border: thin solid var(--border);
+    box-shadow: 0 0 30px var(--shadow);
+}
+
+img {
+    margin: 20px;
+    max-width: 200px;
+    border: thin solid var(--border);
+    box-shadow: 0 0 30px var(--shadow);
+}
+
+
+/* ------MEDIA QUERY------ */
+@media only screen and (min-width: 34rem) {
+    /* ------MAIN SELECTORS------ */
+    body{
+        max-width: 1000px;
+    }
+}
+
+@media only screen and (min-width: 64rem) {
+    /* ------MAIN SELECTORS------ */
+
+    body {
+        max-width: 2440px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+}
