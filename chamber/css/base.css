@@ -235,6 +235,16 @@ form label.top input:required:valid {
   justify-content: end;
 }
 
+.grid section h1,
+.grid section h2{
+  color: black;
+}
+
+.list section h1,
+.list section h2{
+  color: black;
+}
+
 .grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
