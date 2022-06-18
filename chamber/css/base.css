@@ -53,9 +53,20 @@ main {
   display: block;
 }
 
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  background-color: var(--back);
+}
+
 h1,
 h2,
 h3,
+h4,
 p,
 footer {
   font-family: "Lato", sans-serif;
@@ -71,7 +82,7 @@ h1 {
 
 h2 {
   display: block;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: antiquewhite;
   font-weight: bold;
   padding: 10px;
@@ -83,6 +94,11 @@ h3 {
   padding: 15px;
   margin: 0px;
   font-size: 1.2rem;
+}
+
+h4 {
+  padding: 15px;
+  margin: 0px;
 }
 
 p {
@@ -129,6 +145,18 @@ background-color: var(--back);
 
 td {
 text-align: center;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  background-color: var(--back2);
+  color: white;
+  box-shadow: 1px 1px var(--back);
+}
+
+button:hover {
+  background-color: #445ba9;
 }
 
 /*--------------FORM-----------------*/
@@ -204,6 +232,42 @@ form label.top input:required:valid {
 }
 
 /*----------CLASS SELECTORS-----------*/
+
+.selectors {
+  display: flex;
+  justify-content: end;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+	align-items: center;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	display: flex;
+	align-items: center;
+}
+
+.grid section {
+	flex-direction: column;
+	text-align: center;
+}
+
+.list section {
+	flex-direction: row;
+	justify-content: left;
+}
+
+.cards img {
+  margin: 20px;
+  max-width: 100px;
+}
 
 .member-bens {
   display: none;
