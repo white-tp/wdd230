@@ -19,12 +19,12 @@
 
   .navigation {
     display: flex;
-    background-color: #010754;
+    background-color: var(--back3);
     color: white;
   }
 
   .navigation a:hover {
-    background-color: #a98714;
+    background-color: var(--back);
     color: white;
     text-shadow: 1px 1px black;
     font-weight: bold;
