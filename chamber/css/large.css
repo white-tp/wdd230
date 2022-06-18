@@ -16,9 +16,13 @@
     display: block;
   }
 
+  button:hover {
+    background-color: #445ba9;
+  }
+
   /*-----------CLASS SELECTORS----------*/
 
-  .index main {
+  main.index {
     min-width: 660px;
     margin: 1rem;
     display: grid;

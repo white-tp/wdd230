@@ -1,5 +1,5 @@
 const requestURL = 'JSON/data.json';
-const cards = document.querySelector('.cards');
+const cards = document.querySelector('.grid');
 
 fetch(requestURL)
   .then((response) => {
@@ -19,7 +19,7 @@ const displayCompanies = (company) => {
     let h4 = document.createElement('h4');
     let portrait = document.createElement('img');
   
-    // Change the textContent property of the h2, h3 and h4 elements to contain the prophet's full name, birthdate, and birthplace
+    // Change the textContent property of the h2, h3 and h4 elements to contain company name, phone number, address, and website URL.
     h1.textContent = `${company.name}`;
     h2.textContent = `${company.phoneNum}`;
     h3.textContent = `${company.address}`;
@@ -38,5 +38,5 @@ const displayCompanies = (company) => {
     card.appendChild(h4);
   
     // Add/append the existing HTML div with the cards class with the section(card)
-    document.querySelector('div.cards').appendChild(card);
+    document.querySelector('div.grid').appendChild(card);
 }

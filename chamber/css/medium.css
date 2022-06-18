@@ -1,7 +1,37 @@
 @media only screen and (min-width: 40rem) {
-	
+
 	h1 {
+		display: block;
+		color: antiquewhite;
+		margin: 0px;
+		font-size: 1.5rem;
 		padding-left: 20px;
+		text-shadow: 1.5px 1.5px 5px black;
+	}
+	  
+	h2 {
+		display: block;
+		font-size: 1.2rem;
+		color: antiquewhite;
+		font-weight: bold;
+		padding: 10px;
+		margin: 0px;
+		text-shadow: 1.5px 1.5px 5px black;
+	}
+	  
+	h3 {
+		padding: 15px;
+		margin: 0px;
+		font-size: 1.2rem;
+	}
+	  
+	h4 {
+		padding: 15px;
+		margin: 0px;
+	}
+
+	.list section h4 {
+		display: block;
 	}
 
 	.social {
@@ -15,10 +45,14 @@
 		flex-direction: column;
 		justify-content: flex-start;
 		margin: 30px;
-	  }
+	}
 	  
-	  .member-bens h1, p {
+	.member-bens h1, p {
 		color: var(--back3);
-	  }
+	}
+	
+	.list section img {
+		display: block;
+	}
 
 }

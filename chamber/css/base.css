@@ -76,14 +76,14 @@ h1 {
   display: block;
   color: antiquewhite;
   margin: 0px;
-  font-size: 1.5rem;
+  font-size: .5rem;
   text-shadow: 1.5px 1.5px 5px black;
 }
 
 h2 {
   display: block;
-  font-size: 1.2rem;
   color: antiquewhite;
+  font-size: .5rem;
   font-weight: bold;
   padding: 10px;
   margin: 0px;
@@ -93,12 +93,13 @@ h2 {
 h3 {
   padding: 15px;
   margin: 0px;
-  font-size: 1.2rem;
+  font-size: .5rem;
 }
 
 h4 {
   padding: 15px;
   margin: 0px;
+  font-size: .5rem;
 }
 
 p {
@@ -153,10 +154,6 @@ button {
   background-color: var(--back2);
   color: white;
   box-shadow: 1px 1px var(--back);
-}
-
-button:hover {
-  background-color: #445ba9;
 }
 
 /*--------------FORM-----------------*/
@@ -264,7 +261,20 @@ form label.top input:required:valid {
 	justify-content: left;
 }
 
-.cards img {
+.list section img {
+	display: none;
+}
+
+.list section h4 {
+  display: none;
+}
+
+.grid img {
+  margin: 20px;
+  max-width: 100px;
+}
+
+.list img {
   margin: 20px;
   max-width: 100px;
 }
