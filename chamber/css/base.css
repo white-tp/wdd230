@@ -1,3 +1,5 @@
+/*----------FONTS----------*/
+
 @font-face {
   font-family: 'hylia_serif_betaregular';
   src: url('../fonts/hyliaserifbeta-regular-webfont.woff2') format('woff2'),
@@ -6,13 +8,26 @@
   font-style: normal;
 }
 
-/*----------Main Selectors----------*/
+/*----------ROOT VARIABLES----------*/
+
+:root {
+  
+  --back: #a98714;
+  --back2: #3f48cc;
+  --back3: #010754;
+  --foredark: hsla(0,0%,10%,1);
+  --border: hsl(0,0%,20%);
+  --borderlight: rgb(200, 200, 200);
+  --shadow: rgb(171, 171, 171);
+}
+
+/*----------MAIN SELECTORS----------*/
 
 nav {
 	margin: 0 auto;
 	max-width: 760px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #3f48cc;
+  background-color: var(--back2);
 }
 
  body { 
@@ -30,7 +45,7 @@ header {
 
 header,
 footer {
-  background-color: #3f48cc;
+  background-color: var(--back2);
   border: 10px;
 }
 
@@ -99,15 +114,6 @@ picture img {
  transition: filter 0.5s;
 }
 
-:root {
-  
-  --back: #a98714;
-  --foredark: hsla(0,0%,10%,1);
-  --border: hsl(0,0%,20%);
-  --borderlight: rgb(200, 200, 200);
-  --shadow: rgb(171, 171, 171);
-}
-
 table {
 margin: 10px auto;
 border: thin solid var(--border);
@@ -135,7 +141,7 @@ form fieldset {
 }
 
 form legend {
-  color: #010754;
+  color: var(--back3);
   margin: 0 1rem;
   padding: 0 .5rem;
 }
@@ -185,19 +191,19 @@ form label.top input:required:valid {
   border-left: green solid 6px;
 }
 
-/*----------ID Selectors----------*/
+/*----------ID SELECTORS----------*/
 
 #announce {
   font-family: 'Lato', sans-serif;
   font-weight: 700;
   padding: 5px;
-  background-color: #a98714;
+  background-color: var(--back);
   min-width: fit-content;
   margin: auto;
   text-align: center;
 }
 
-/*----------Class Selectors-----------*/
+/*----------CLASS SELECTORS-----------*/
 
 .member-bens {
   display: none;
@@ -215,12 +221,12 @@ form label.top input:required:valid {
   font-size: 1.4rem;
   padding: 0;
   margin: 0;
-  text-shadow: 1px 1px #a98714;
+  text-shadow: 1px 1px var(--back);
 }
 
 .counter p {
   font-family: 'hylia_serif_betaregular', sans-serif;
-  border: 1px solid #010754;
+  border: 1px solid var(--back3);
   font-size: 30px;
 }
 
@@ -233,7 +239,7 @@ picture img.pic-logo {
 
 h1.error {
   color: red;
-  text-shadow: 1px 1px  #010754;
+  text-shadow: 1px 1px  var(--back3);
 }
 
 .error-msg {
@@ -255,8 +261,8 @@ h3.about-h3 {
   font-size: 1.5rem;
   font-weight: 700;
   margin: 5px;
-  border: 2px solid #a98714;
-  background-color: #3f48cc;
+  border: 2px solid var(--back);
+  background-color: var(--back2);
   justify-content: center;	
 }
 
@@ -277,7 +283,6 @@ h3.about-h3 {
 .social a {
   display: inline-block;
   padding: 12px 10px;
-  /* margin: 5px; */
 }
 
 .navigation {
@@ -324,8 +329,8 @@ h3.about-h3 {
 .weather,
 .join,
 .spotlight {
-  box-shadow: 1px 1px #010754;
-  background-color: #3f48cc;
+  box-shadow: 1px 1px var(--back3);
+  background-color: var(--back2);
   margin: 5px;
 } 
 
@@ -340,11 +345,11 @@ h3.about-h3 {
 
 .hero h2 {
   color: black;
-  text-shadow: 1.5px 1.5px 5px #a98714;
+  text-shadow: 1.5px 1.5px 5px var(--back);
 }
 
 .hero p {
-  text-shadow: 1.5px 1.5px 5px #a98714;
+  text-shadow: 1.5px 1.5px 5px var(--back);
 }
 
 .hero picture img {
@@ -357,7 +362,6 @@ h3.about-h3 {
 }
 
 .hero {
-  /* background-image: url("../images/west-richland-city-view-bi.jpg"); */
   border: 1px solid black;
   padding: 1em;
 }
@@ -378,7 +382,7 @@ h3.about-h3 {
 }
 
 .border {
-  border-bottom: 1px solid #010754;
+  border-bottom: 1px solid var(--back3);
 }
 
 .join {
@@ -392,21 +396,21 @@ a.join1 {
   color: white;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  background-color: #010754;
+  background-color: var(--back3);
   padding: 5px 20px;
   margin-left: 10px;
-  box-shadow: 2px 2px #3f48cc;
+  box-shadow: 2px 2px var(--back2);
 }
 
 
 a.join2 {
   text-decoration: none;
-  color: white;
+  color: black;
   font-family: 'Lato', sans-serif;
   font-weight: 700;
-  background-color: blue;
+  background-color: var(--back);
   padding: 10px 30px;
-  box-shadow: 2px 2px #010754;
+  box-shadow: 2px 2px var(--back3);
 }
 
 .spotlight {
@@ -420,7 +424,7 @@ a.join2 {
   border: 1px solid black;
   padding: 3em;
   margin: 15px;
-  box-shadow: 2px 2px #010754;
+  box-shadow: 2px 2px var(--back3);
 }
 
 .spot1 img,
