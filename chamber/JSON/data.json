@@ -21,7 +21,7 @@
             "address":  "2880 Lincoln Lndg, Richland, WA 99352",
             "phoneNum":  "(509) 627-4348",
             "websiteURL":  "http://www.fairchildcinemas.com/",
-            "compLogo":  "http://www.fairchildcinemas.com/images/whiteLogoTransparent.png",
+            "compLogo":  "../chamber/images/fairchildLogo-transparent.png",
             "memberLevel":  "Gold"
         },
         {
