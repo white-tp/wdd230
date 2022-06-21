@@ -454,7 +454,7 @@ h3.about-h3 {
   display: inline-flex;
   flex-direction: row;
   width: fit-content;
-  max-width: 400px;
+  max-width: 350px;
   margin-left: 10px;
   margin-top: 20px;
 }
@@ -462,6 +462,7 @@ h3.about-h3 {
 .hero {
   border: 1px solid black;
   padding: 1em;
+  background-color: var(--back);
 }
 
 .news {
@@ -554,7 +555,8 @@ a.join2 {
   font-family: 'Lato', sans-serif;
 }
 
-.event a {
+.event a,
+.news a {
   list-style-type: none;
   color: white;
   padding-left: 20px;

@@ -35,6 +35,10 @@
 		display: block;
 	}
 
+	.hero picture img {
+		max-width: 700px;
+	}
+
 	.social {
 		position: absolute;
 		top: 20px;
