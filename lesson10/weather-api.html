@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/weather-api.css">
+
+    <title>Weather API Test</title>
+</head>
+<body>
+<div id="weather-app">
+    <!-- Trifoce emoji courtesy of emojidex user Kenjiraw -->
+    <img class="emojidex-emoji" src="https://cdn.emojidex.com/emoji/seal/triforce.png" emoji-code="triforce" alt="triforce" /><h1>OpenWeatherMap.org API Test</h1>
+    <p>The current temperature in <span class="city-deg">Fairbanks, Alaska</span> is <span id="current-temp"></span> <span class="city-deg">&deg;F</span></p>
+    <h2>Current Condition Icon</h2>
+    <figure>
+    <img src="" alt="" id="weather-icon" />
+    <figcaption></figcaption>
+    </figure>
+</div>
+</body>
+<script src="script/weatherapi.js"></script>
+</html>

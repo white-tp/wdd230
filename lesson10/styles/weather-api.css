@@ -1,0 +1,58 @@
+/*----------FONTS----------*/
+
+@font-face {
+    font-family: 'hylia_serif_betaregular';
+    src: url('/chamber/fonts/hyliaserifbeta-regular-webfont.woff2') format('woff2'),
+         url('/chamber/fonts/hyliaserifbeta-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+/*----------ROOT VARIABLES----------*/
+:root {
+    --back: rgb(14,81,53);
+    --text: rgb(244,237,11);
+    --font: 'hylia_serif_betaregular', sans-serif;
+}
+
+
+/* ----------MAIN SELECTORS----------- */
+
+body {
+    margin: 30px;
+    background-color: var(--back);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--font);
+    font-size: 2em;
+}
+
+img {
+    width: 125px;
+}
+
+h1,
+h2 {
+    color: var(--text);
+}
+
+/* -----------ID SELECTORS----------- */
+
+#current-temp {
+    color: var(--text);
+}
+
+#weather-app {
+    text-align: center;
+}
+
+/* -----------CLASS SELECTORS------------ */
+
+.city-deg {
+    color: var(--text);
+}
+
+img.emojidex-emoji {
+    max-width: 100px;
+}
