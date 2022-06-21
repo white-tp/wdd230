@@ -2,8 +2,8 @@
 
 @font-face {
     font-family: 'hylia_serif_betaregular';
-    src: url('/chamber/fonts/hyliaserifbeta-regular-webfont.woff2') format('woff2'),
-         url('/chamber/fonts/hyliaserifbeta-regular-webfont.woff') format('woff');
+    src: url('../fonts/hyliaserifbeta-regular-webfont.woff2') format('woff2'),
+         url('../fonts/hyliaserifbeta-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
   }
