@@ -230,6 +230,20 @@ form label.top input:required:valid {
 
 /*----------CLASS SELECTORS-----------*/
 
+.wireframe a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 10px;
+  color: var(--back3);
+  text-decoration: none;
+}
+
+.wireframe a:hover {
+  background-color: var(--back2);
+}
+
 .selectors {
   display: flex;
   justify-content: end;
