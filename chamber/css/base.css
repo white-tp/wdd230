@@ -131,23 +131,6 @@ picture img {
  transition: filter 0.5s;
 }
 
-table {
-margin: 10px auto;
-border: thin solid var(--border);
-box-shadow: 0 0 30px var(--shadow);
-border-collapse: collapse;
-}
-
-th, td {
-padding: 7px 15px;
-border: 1px solid var(--borderlight);
-background-color: var(--back);
-}
-
-td {
-text-align: center;
-}
-
 button {
   padding: 10px;
   margin: 5px;
@@ -155,6 +138,26 @@ button {
   color: white;
   box-shadow: 1px 1px var(--back);
 }
+
+/* -----------TABLE----------- */
+
+table {
+margin: 10px auto;
+border: thin solid var(--border);
+box-shadow: 0 0 30px var(--shadow);
+}
+
+th, td {
+padding: 5px 15px;
+border: 1px solid var(--borderlight);
+background-color: rgb(202, 195, 195);
+border-radius: 5px 5px 5px 5px;
+}
+
+td {
+text-align: center;
+}
+
 
 /*--------------FORM-----------------*/
 
@@ -226,6 +229,10 @@ form label.top input:required:valid {
   min-width: fit-content;
   margin: auto;
   text-align: center;
+}
+
+#gradient {
+  background-image: linear-gradient(var(--back3), var(--back2));
 }
 
 /*----------CLASS SELECTORS-----------*/
@@ -541,6 +548,7 @@ a.join2 {
   font-size: 40px;
   font-family: 'Lato', sans-serif;
   text-shadow: 1px 1px white;
+  background-image: linear-gradient(rgb(48, 167, 213), rgb(89, 191, 231), skyBlue, rgb(212, 212, 212), rgb(120, 120, 120), rgb(49, 49, 49));
 }
 
 .weather td,

@@ -24,6 +24,7 @@ fetch(url)
     }
 
     document.getElementById("windspeed").innerHTML += `${windspeed} mph`;
+    document.getElementById("weather-description").innerHTML += `${descript}`;
     document.getElementById("temperature").innerHTML += `${temperature}&deg;`;
     document.getElementById("chill").innerHTML += `${chill}&deg;`;
 
