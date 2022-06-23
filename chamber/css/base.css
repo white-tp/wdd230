@@ -231,10 +231,6 @@ form label.top input:required:valid {
   text-align: center;
 }
 
-#gradient {
-  background-image: linear-gradient(var(--back3), var(--back2));
-}
-
 thead tr th img {
   width: 125px;
 }
@@ -450,6 +446,13 @@ h3.about-h3 {
 .join h2,
 .spotlight h2 {
   font-size: 1.5rem;
+}
+ 
+.news p, 
+.event p,
+.join p {
+  color: white;
+  text-shadow: 1.5px 1.5px 5px black;
 }
 
 .hero h2 {
