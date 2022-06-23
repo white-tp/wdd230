@@ -235,6 +235,10 @@ form label.top input:required:valid {
   background-image: linear-gradient(var(--back3), var(--back2));
 }
 
+thead tr th img {
+  width: 125px;
+}
+
 /*----------CLASS SELECTORS-----------*/
 
 .wireframe a {
