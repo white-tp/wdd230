@@ -4,7 +4,7 @@
             "name":  "Walmart",
             "address":  "2801 Duportail St, Richland, WA 99352",
             "phoneNum":  "(509) 628-8420",
-            "websiteURL":  "https://www.walmart.com/store/3261-richland-wa?cn=Tracking_local_pack_1",
+            "websiteURL":  "https://www.walmart.com",
             "compLogo":  "../chamber/images/walmart-logo.png",
             "memberLevel":  "Gold"
         },
@@ -12,7 +12,7 @@
             "name":  "Home Depot",
             "address":  "2855 Duportail St, Richland, WA 99352",
             "phoneNum":  "(509) 627-0111",
-            "websiteURL":  "https://www.homedepot.com/l/West-Richland/WA/Richland/99352/4746",
+            "websiteURL":  "https://www.homedepot.com",
             "compLogo":  "https://logos-world.net/wp-content/uploads/2021/08/Home-Depot-Logo-700x394.png",
             "memberLevel":  "Gold"
         },
@@ -20,7 +20,7 @@
             "name":  "Fairchild Cinema Queensgate",
             "address":  "2880 Lincoln Lndg, Richland, WA 99352",
             "phoneNum":  "(509) 627-4348",
-            "websiteURL":  "http://www.fairchildcinemas.com/",
+            "websiteURL":  "http://www.fairchildcinemas.com",
             "compLogo":  "../chamber/images/fairchildLogo-transparent.png",
             "memberLevel":  "Gold"
         },
@@ -28,7 +28,7 @@
             "name":  "Gesa Credit Union",
             "address":  "2951 Duportail St, Richland, WA 99352",
             "phoneNum":  "(509) 378-3100",
-            "websiteURL":  "https://www.gesa.com/",
+            "websiteURL":  "https://www.gesa.com",
             "compLogo":  "https://www.gesa.com/wp-content/uploads/2021/08/white-logo.svg",
             "memberLevel":  "Silver"
         },
@@ -36,7 +36,7 @@
             "name":  "Habits Burgers",
             "address":  "2831 Duportail St, Richland, WA 99352",
             "phoneNum":  "(509) 606-0880",
-            "websiteURL":  "https://www.habitburger.com/",
+            "websiteURL":  "https://www.habitburger.com",
             "compLogo":  "https://www.habitburger.com/dbcwp/wp-content/themes/habitburger/images/habit-logo.svg",
             "memberLevel":  "Silver"
         },
@@ -44,7 +44,7 @@
             "name":  "Zip's Hamburgers",
             "address":  "1123 Lee Blvd, Richland, WA 99352",
             "phoneNum":  "(509) 943-0688",
-            "websiteURL":  "https://www.zipsdrivein.com/locations/other-washington-locations/",
+            "websiteURL":  "https://www.zipsdrivein.com",
             "compLogo":  "https://www.zipsdrivein.com/wp-content/uploads/2020/07/Zips-Web-Logo.png",
             "memberLevel":  "Bronze"
         },
@@ -52,7 +52,7 @@
             "name":  "Energy Northwest",
             "address":  "76 N Power Plant Loop Richland WA 99354",
             "phoneNum":  "(509) 377-8085",
-            "websiteURL":  "https://www.energy-northwest.com/Pages/default.aspx",
+            "websiteURL":  "https://www.energy-northwest.com",
             "compLogo":  "https://www.energy-northwest.com/_layouts/15/ENW.PublicSite.Redesign/img/EN-Logo-Blue.png",
             "memberLevel":  "Non-Profit"
         },
@@ -60,7 +60,7 @@
             "name":  "Yoke's Fresh Market",
             "address":  "1401 Bombing Range Road West Richland WA 99353",
             "phoneNum":  "(509) 967-8007",
-            "websiteURL":  "https://www.yokesfreshmarkets.com/",
+            "websiteURL":  "https://www.yokesfreshmarkets.com",
             "compLogo":  "https://www.yokesfreshmarkets.com/sites/all/themes/zen_yokes/logo.png",
             "memberLevel":  "Silver"
         },
@@ -68,7 +68,7 @@
             "name":  "U.S. Linen & Uniform",
             "address":  "1106 Harding St. Richland WA 99352",
             "phoneNum":  "(509) 946-6125",
-            "websiteURL":  "https://uslinen.com/",
+            "websiteURL":  "https://uslinen.com",
             "compLogo":  "https://uslinen.com/wp-content/themes/us-linen/images/logo.png",
             "memberLevel":  "Silver"
         },
@@ -76,7 +76,7 @@
             "name":  "Target",
             "address":  "2941 Queensgate Dr, Richland, WA 99352",
             "phoneNum":  "(509) 627-7500",
-            "websiteURL":  "https://www.target.com/sl/richland/2314",
+            "websiteURL":  "https://www.target.com",
             "compLogo":  "../chamber/images/target-logo.png",
             "memberLevel":  "Gold"
         },
@@ -84,7 +84,7 @@
             "name":  "Richland Tree Service",
             "address":  "6101 W Van Giesen St, West Richland, WA 99353",
             "phoneNum":  "(509) 316-2830",
-            "websiteURL":  "https://www.richlandtreeservice.com/",
+            "websiteURL":  "https://www.richlandtreeservice.com",
             "compLogo":  "../chamber/images/richland-tree-service.png",
             "memberLevel":  "Bronze"
         }
