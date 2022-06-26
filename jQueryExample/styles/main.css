@@ -1,0 +1,23 @@
+html {
+    height: 100%; 
+}
+
+body {
+    margin: auto;
+    max-width: 600px;
+    background-image: linear-gradient(rgb(255, 89, 0), rgb(0, 0, 168));
+}
+
+h1 {
+    margin: 20px;
+    padding: 25px;
+    background-color: yellow;
+    text-decoration: underline;
+}
+
+p {
+    margin: 15px;
+    padding: 25px;
+    font-size: 30px;
+    color: aliceblue;
+}
