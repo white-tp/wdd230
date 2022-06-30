@@ -114,24 +114,16 @@
 
   a.join1 {
     float: right;
-    margin: 0 40px 0 0;
+    margin: 0 40px 40px 0;
   }
 
   a.join2 {
-    position: relative;
-    left: 19%;
-    top: 5%;
+    float: left;
+    margin: 45px;
   }
 
   .spot3 {
     display: block;
-  }
-
-  .hero picture img {
-    display: inline-flex;
-    flex-direction: row;
-    margin-left: 10px;
-    margin-top: 20px;
   }
 
   .discover picture img:hover {

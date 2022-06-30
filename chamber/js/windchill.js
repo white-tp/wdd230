@@ -11,7 +11,7 @@ fetch(url)
     const windspeed = data.wind.speed;
     weatherIcon.setAttribute('src', imgsrc);weatherIcon.setAttribute('alt', descript);
 
-    if (temperature >= 50 && windspeed >= 3.0) {
+    if (temperature <= 50 && windspeed >= 3.0) {
         chill = windChill(temperature, windspeed);
     }
     else {

@@ -158,6 +158,10 @@ td {
 text-align: center;
 }
 
+thead tr th img {
+  width: 125px;
+}
+
 
 /*--------------FORM-----------------*/
 
@@ -229,10 +233,6 @@ form label.top input:required:valid {
   min-width: fit-content;
   margin: auto;
   text-align: center;
-}
-
-thead tr th img {
-  width: 125px;
 }
 
 /*----------CLASS SELECTORS-----------*/
@@ -453,12 +453,8 @@ h3.about-h3 {
 }
 
 .hero picture img {
-  display: inline-flex;
-  flex-direction: row;
-  width: fit-content;
-  max-width: 350px;
-  margin-left: 10px;
-  margin-top: 20px;
+  width: 100%;
+  height: 100%;
 }
 
 .hero {
@@ -517,26 +513,13 @@ a.join2 {
 .spotlight {
   border: 1px solid black;
   padding: 1em;
+  max-width: 375px;
+  text-align: center;
 }
 
-.spot1,
-.spot2,
-.spot3 {
-  border: 1px solid black;
-  padding: 3em;
-  margin: 15px;
-  box-shadow: 2px 2px var(--back3);
-}
-
-.spot1 img,
-.spot2 img,
-.spot3 img {
-  max-width: 100px;
+.spotlight img {
+  max-width: 150px;
   display: flex;
-}
-
-.spot3 {
-  display: none;
 }
 
 .weather thead tr th {
