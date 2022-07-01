@@ -21,11 +21,102 @@
     <meta name="author" content="Tylor Perry" />
     <title>Chamber of Commerce Contact Page</title>
   </head>
-  <main>
-    <div class="error-msg">
-      <h1 class="error">...404 Err0r C0d3...</h1>
-      <p>I don't Exist Yet...</p>
-      <a href="../chamber/index.html">***Go Home Please!...I got lost...***</a>
+  <header>
+    <div class="logo">
+      <picture>
+        <img class="pic-logo" src="images/richland-acoc-logo.webp" alt="West Richland Commerce Logo">
+      </picture>
+      <h1>West Richland</h1>
+      <h2>Area Chamber of Commerce</h2>
+      <div class="social">
+        <a href="https://www.facebook.com/westrichlandchamber/" target="_blank" rel="noopener noreferrer"><img src="images/facebook.png" alt="FaceBook Logo Link"></a>
+        <a href="https://www.linkedin.com/in/westrichlandchamberofcommerce/" target="_blank" rel="noopener noreferrer"><img src="images/linkedin.png" alt="Linkedin Logo Link"></a>
+      </div>
     </div>
+
+    <nav>
+      <ul class="navigation">
+        <li><span class="ham"></span></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="discover.html">Discover</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div id="announce"></div>
+    <div class="datetracker">
+      <span id="date"></span>
+    </div>
+  </header>
+  <main>
+    <form method="get" action="thankyou.html">
+      <fieldset>
+          <legend>Contact Information</legend>
+          <label class="top">First Name*<input type="text" name="fname" required></label>
+          <label class="top">Last Name*<input type="text" name="lname" required></label>
+          <label class="top">Mailing Address*<input type="text" name="mAddress" placeholder= "123 Example Street" required</label>
+          <label class="top">Mailing Address line 2<input type="text" name="mAddress2" placeholder= "Apt. #"</label>
+          <label class="top">City*<input type="text" name="city" placeholder= "Richland" required</label>
+          <label class="top">State*<input type="text" name="state" placeholder= "WA" required</label>
+          <label class="top">Postal Code*<input type="number" name="zip" placeholder= "99352" required</label>
+          <label class="top">Organization<input type="text" title="Format: Must be longer than 7 letters and uses alpha characters, hyphens, and/or spaces." name="bname" placeholder="ex: Comapany, Inc." pattern="[a-zA-Z \.\-\p{L}]{7,}"></label>
+          <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+          <label class="top">Phone*<input type="tel" name="phone" placeholder="(555) 555-1234" required></label>
+      </fieldset>
+      
+      <fieldset>
+          <legend>Contact Preference</legend>
+          <div>Choose how we can primarily contact you:</div>
+          <label class="sbs"><input type="radio" name="level" value="beginner">E-mail</label>
+          <label class="sbs"><input type="radio" name="level" value="beginner">Mail</label>
+          <label class="sbs"><input type="radio" name="level" value="beginner">Phone</label>
+
+          <div>Comments/Questions</div>
+          <label class="top">Share your comments, concerns, or questions in the space provided.</label>
+          <label><textarea name="textarea" rows="15" cols="44"></textarea></label>
+          <input type="hidden" name="date[]" id="date-hidden" value="">
+          <input type="hidden" name="date[]" id="time" value="">
+      </fieldset>
+
+      <fieldset>
+        <div>The West Richland Area Chamber of Commerce will not sell  your contact or email information. 
+          In order to serve your request, our office shares information with chamber member businesses who
+           can provide you with additional information. Please indicate below if we may share your request 
+           for information:
+        </div>
+        <label class="sbs"><input type="radio" name="consent" value="yesNo">Yes, you may release this information.</label>
+        <label class="sbs"><input type="radio" name="consent" value="yesNo">No, you may not release this information.</label>
+
+      </fieldset>
+
+      <input type="submit" value="Submit Form" class="submitBtn">
+
+  </form>
+
   </main>
+
+  <footer class="footer1">
+    <div class="logo">
+      <picture>
+        <img class="pic-logo" src="images/richland-acoc-logo.webp" alt="West Richland Commerce Logo">
+      </picture>
+      <h2>West Richland Area Chamber of Commerce</h2>
+    </div>
+    <div>
+      <h3>
+      🚩<a class="map" href="https://goo.gl/maps/E5gPJoNePdmaU7hT8" target="_blank" rel="noopener noreferrer">331 S. 41st Ave PO Box 4023 West Richland, WA 99353</a><br>
+      📞<a class="phone" href="tel:5099670521">Phone: (509) 967-0521</a><br>
+      📧<a class="email" href = "mailto:wrcc@westrichlandchamber.org">Email: wrcc@westrichlandchamber.org</a>
+      </h3>
+    </div>
+  </footer>
+  <footer>
+    .:| &copy; <span id="year"></span> Richland Area Chamber of Commerce | Tylor Perry | WDD230 Project | Last Modified: <span id="modified"></span> |:.
+  </footer>
+  <script src="js/toggleMenu.js"></script>
+  <script src="js/currentDateAndTime.js"></script>
+  <script src="../js/year.js"></script>
+  <script src="../js/lastmodified.js"></script>
+  <script src="js/dateMessage.js"></script>
 </html>

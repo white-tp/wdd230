@@ -6,8 +6,7 @@ fetch(requestURL)
     .then((data) => {
     console.log(data);
     const companies = data['companies'];
-    // let goldMember = companies.memberLevel.filter("Gold");
-    companies.forEach(displayCompanies);
+    companies.slice(0,5).forEach(displayCompanies);
   });
 
 const displayCompanies = (company) => {

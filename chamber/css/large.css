@@ -110,6 +110,7 @@
     padding: 1em;
     grid-row: 1 / 4;
     grid-column: -1;
+    max-width: 375px;
   }
 
   a.join1 {
