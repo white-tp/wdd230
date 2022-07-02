@@ -237,6 +237,11 @@ form label.top input:required:valid {
 
 /*----------CLASS SELECTORS-----------*/
 
+h1.contact,
+h2.contact {
+  background-color: var(--back3);
+}
+
 .selectors {
   display: flex;
   justify-content: end;
@@ -398,14 +403,14 @@ h3.about-h3 {
   font-family: 'Courier New', Courier, monospace;
 	text-align: left;
 	text-decoration: none;
-	color: black;
+	color: white;
 	font-weight: 700;
 	transition: 0.5s;
 	font-size: clamp(1rem, 2vmin, 1.5rem);
 }
 
 .navigation span.ham::before {
-	content: "🍔 Menu";
+	content: "📘 Menu";
   color: antiquewhite;
 }
 
@@ -414,7 +419,7 @@ h3.about-h3 {
 }
 
 .responsive span.ham::before {
-	content: "❌ Close";
+	content: "📖 Close";
 }
  
 .news, 

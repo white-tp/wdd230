@@ -50,16 +50,59 @@
     </div>
   </header>
   <main>
+
+    <div>
+      <h1 class="contact">
+        Contact Us
+      </h1>
+      <p>
+        Send us your questions or comments using the form below. We will respond promptly
+        to your inquiry.
+      </p>
+
+      <h2 class="contact">
+        Office Hours
+      </h2>
+      <p>
+        Monday - Thursday 10:00am - 4:00pm, Friday: Closed
+      </p>
+
+      <h2 class="contact">
+        Points of Contact
+      </h2>
+      <h3>Executive Director</h3>
+      <p>
+        May Hays<br>
+        mayhays@westrichlandchamber.org<br>
+        wrcc@westrichlandchamber.org
+      </p>
+      <h3>
+        Office Administration
+      </h3>
+      <p>
+        wrcc@westrichlandchamber.org
+      </p>
+      <h3>
+        Sales & Marketing
+      </h3>
+      <p>
+        ads@westrichlandchamber.org<br>
+        wrcc@westrichlandchamber.org
+      </p>
+    </div>
+    <div>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d88211.72216180305!2d-119.48185443878175!3d46.29759616450402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54986f9aac30e925%3A0xcd5b1cec6ba9a9cf!2sWest%20Richland%20Chamber%20of%20Commerce!5e0!3m2!1sen!2sus!4v1656739576121!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
     <form method="get" action="thankyou.html">
       <fieldset>
           <legend>Contact Information</legend>
           <label class="top">First Name*<input type="text" name="fname" required></label>
           <label class="top">Last Name*<input type="text" name="lname" required></label>
-          <label class="top">Mailing Address*<input type="text" name="mAddress" placeholder= "123 Example Street" required</label>
-          <label class="top">Mailing Address line 2<input type="text" name="mAddress2" placeholder= "Apt. #"</label>
-          <label class="top">City*<input type="text" name="city" placeholder= "Richland" required</label>
-          <label class="top">State*<input type="text" name="state" placeholder= "WA" required</label>
-          <label class="top">Postal Code*<input type="number" name="zip" placeholder= "99352" required</label>
+          <label class="top">Mailing Address*<input type="text" name="mAddress" placeholder= "123 Example Street" required></label>
+          <label class="top">Mailing Address line 2<input type="text" name="mAddress2" placeholder= "Apt. #"></label>
+          <label class="top">City*<input type="text" name="city" placeholder= "Richland" required></label>
+          <label class="top">State*<input type="text" name="state" placeholder= "WA" required></label>
+          <label class="top">Postal Code*<input type="number" name="zip" placeholder= "99352" required></label>
           <label class="top">Organization<input type="text" title="Format: Must be longer than 7 letters and uses alpha characters, hyphens, and/or spaces." name="bname" placeholder="ex: Comapany, Inc." pattern="[a-zA-Z \.\-\p{L}]{7,}"></label>
           <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
           <label class="top">Phone*<input type="tel" name="phone" placeholder="(555) 555-1234" required></label>
@@ -68,13 +111,13 @@
       <fieldset>
           <legend>Contact Preference</legend>
           <div>Choose how we can primarily contact you:</div>
-          <label class="sbs"><input type="radio" name="level" value="beginner">E-mail</label>
-          <label class="sbs"><input type="radio" name="level" value="beginner">Mail</label>
-          <label class="sbs"><input type="radio" name="level" value="beginner">Phone</label>
+          <label class="sbs"><input type="radio" name="level" value="beginner"> E-mail</label>
+          <label class="sbs"><input type="radio" name="level" value="beginner"> Mail</label>
+          <label class="sbs"><input type="radio" name="level" value="beginner"> Phone</label>
 
           <div>Comments/Questions</div>
           <label class="top">Share your comments, concerns, or questions in the space provided.</label>
-          <label><textarea name="textarea" rows="15" cols="44"></textarea></label>
+          <label><textarea name="textarea" rows="15" cols="48"></textarea></label>
           <input type="hidden" name="date[]" id="date-hidden" value="">
           <input type="hidden" name="date[]" id="time" value="">
       </fieldset>
@@ -85,8 +128,8 @@
            can provide you with additional information. Please indicate below if we may share your request 
            for information:
         </div>
-        <label class="sbs"><input type="radio" name="consent" value="yesNo">Yes, you may release this information.</label>
-        <label class="sbs"><input type="radio" name="consent" value="yesNo">No, you may not release this information.</label>
+        <label class="sbs"><input type="radio" name="consent" value="yesNo"> Yes, you may release this information.</label>
+        <label class="sbs"><input type="radio" name="consent" value="yesNo"> No, you may not release this information.</label>
 
       </fieldset>
 
