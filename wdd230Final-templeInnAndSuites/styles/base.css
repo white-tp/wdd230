@@ -4,6 +4,16 @@
     --accent3: #FFCA18;
 }
 
+/* ----------FONTS---------- */
+nav, h1, h2, header, footer {
+    font-family: 'Oswald', sans-serif;
+}
+
+p {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+}
+
 /* -----------MAIN SELECTORS----------- */
 
 header {
@@ -42,10 +52,6 @@ a:hover {
     color: #fede77;
 }
 
-nav, h1, h2, header, footer {
-    font-family: 'Oswald', sans-serif;
-}
-
 img {
     max-width: 550px;
 }
@@ -54,10 +60,7 @@ footer h3 {
     font-size: 10px;
 }
 
-p {
-    font-family: 'Kanit', sans-serif;
-    font-weight: 700;
-}
+
 
 body {
     background-color: white;
@@ -115,6 +118,7 @@ footer {
 
 .descript-box {
     position: absolute;
+    font-size: 10px;
     top: 450px;
     left: 70px;
     padding: 5px 100px;
