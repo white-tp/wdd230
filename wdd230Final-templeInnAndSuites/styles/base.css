@@ -19,8 +19,12 @@ button {
     background-color: var(--accent2);
     color: var(--accent3);
     border: var(--accent1);
-    border-radius: 3px 3px black;
     padding: 5px;
+}
+
+button:hover {
+    background-color: #38669a;
+    cursor: pointer;
 }
 
 nav ul li {
@@ -72,7 +76,7 @@ footer {
     color: var(--accent3);
     padding: 10px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 2fr 1fr;
     position: fixed;
     bottom: 0;
     width: 100%;
