@@ -105,6 +105,14 @@ footer {
     padding: 0 10px;
 }
 
+.social a img {
+    max-width: 35px;
+}
+
+.social a img:hover {
+    background-color: var(--accent1);
+}
+
 .descript-box {
     position: absolute;
     top: 450px;
