@@ -119,7 +119,7 @@ footer {
 .descript-box {
     position: absolute;
     font-size: 10px;
-    top: 450px;
+    top: 440px;
     left: 70px;
     padding: 5px 100px;
     background-color: var(--accent3);
