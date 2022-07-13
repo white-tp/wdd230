@@ -20,6 +20,11 @@
   </head>
 
   <header>
+    <div class="banner">
+      <button id="exit">❌</button>
+      <span id="advisory"></span>
+      <span id="ad-descript"></span>
+    </div>
 
     <div class="logo">
         <a href="index.html"><img src="images/tis-logo.webp" alt="Temple Inn and Suites Logo"></a>
@@ -49,13 +54,29 @@
     </div>
 
     <div>
-        <span></span>
-        <h2>Current Weather Widget</h2>
+      <h2>Current Weather Widget</h2>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="2" scope="colgroup"><img src="#" alt="#" id="weather-icon" loading= "lazy"/><span id="weather-description"></span></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Temperature:</td>
+            <td><span id="temperature"></span></td>
+          </tr>
+          <tr>
+            <td>Humidity:</td>
+            <td><span id="humidity"></span></td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
     <div>
-        <span></span>
-        <h2>3-Day Weather Forcast Widget</h2>
+      <h2>3-Day Weather Forcast Widget</h2>
+      <span id="3-day"></span>
     </div>
 
   </main>
@@ -82,5 +103,7 @@
         <a href="http://www.linkedin.com" target="_blank" rel="noopener noreferrer"><img src="https://img.icons8.com/material/48/FFCA18/linkedin--v1.png" alt="InkedIn Logo"></a>
     </div>
   </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="scripts/weather.js"></script>
 
 </html>

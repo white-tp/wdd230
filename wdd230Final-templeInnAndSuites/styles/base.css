@@ -9,10 +9,34 @@ nav, h1, h2, header, footer {
     font-family: 'Oswald', sans-serif;
 }
 
-p {
+p, th, td {
     font-family: 'Kanit', sans-serif;
     font-weight: 700;
 }
+
+/* -----------TABLE----------- */
+table {
+    margin: 10px;
+    border: thin solid var(--accent1);
+    box-shadow: 0 0 20px var(--accent2);
+    }
+    
+    th, td {
+    padding: 5px 15px;
+    border: 1px solid black;
+    font-size: 20px;
+    color: white;
+    background-color: var(--accent1);
+    border-radius: 5px 5px 5px 5px;
+    }
+    
+    td {
+    text-align: center;
+    }
+    
+    thead tr th img {
+      width: 125px;
+    }
 
 /* -----------MAIN SELECTORS----------- */
 
@@ -60,10 +84,10 @@ footer h3 {
     font-size: 10px;
 }
 
-
-
 body {
     background-color: white;
+    /* background-image: linear-gradient(to right,
+            red, orange, yellow, green, blue, indigo, violet); */
     padding-bottom: 100px;
     max-width: 1800px;
 }
@@ -86,7 +110,25 @@ footer {
 }
 
 
+/* -----------ID SELECTORS----------- */
+#exit {
+    display: flex;
+    flex: end;
+}
+
 /* -----------CLASS SELECTORS----------- */
+
+.banner {
+    position: absolute;
+    background-color:var(--accent2);
+    width: 97%;
+    margin: 0;
+    top: 0;
+    right: 0;
+    left:0;
+    padding: 10px;
+    z-index: 99 !important;
+}
 
 .logo {
     display: flex;
