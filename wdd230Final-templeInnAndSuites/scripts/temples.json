@@ -1,0 +1,48 @@
+{
+    "Temples": [
+        {
+            "image":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/brigham-city-utah/400x250/brigham-city-temple-lds-1027480-wallpaper.jpg",
+            "name": "Brigham City Utah Temple",
+            "address": "250 S Main St. Brigham City UT 84302-2560 United States",
+            "telephone": "435-695-2170",
+            "services": "No clothing rental available, No cafeteria available, no patron housing available, Distribution Center nearby",
+            "history": "Milestones: 3 October 2009 Announced, 31 July 2010 Groundbreaking, 23 September 2012 Dedicated",
+            "ordSchedule": "Due to the Pandemic, Ordinance Schedule is by Appointment only.",
+            "seshSchedule": "Due to the Pandemic, Session Schedule is by Appointment only.",
+            "tempCloseSchedule": "2022: Monday 8 August 2022 - Monday 22 August 2022, Friday 9 September 2022 (Limited Operations), Saturday 10 September 2022, Saturday 1 October 2022, Wednesday 23 November 2022 (Limited Operations), Thursday 24 November 2022, Saturday 24 December 2022, Saturday 31 December 2022 (Limited Operations), 2023: Monday 27 February 2023 - Monday 13 March 2023, Saturday 1 April 2023, Tuesday 4 July 2023, Monday 7 August 2023 - Monday 21 August 2023, Friday 8 September 2023 (Limited Operations), Saturday 9 September 2023, Saturday 30 September 2023, Wednesday 22 November 2023 (Limited Operations), Thursday 23 November 2023, Saturday 23 December 2023, Saturday 30 December 2023 (Limited Operations)"
+        },
+        {
+            "image":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/columbia-river-washington/400x250/columbia-river-temple-lds-761262-wallpaper.jpg",
+            "name": "Columbia River Washington Temple",
+            "address": "969 Gage Blvd. Richland WA 99352-7777 United States",
+            "telephone": "509-628-0990",
+            "services": "No clothing rental available, No cafeteria available, no patron housing available, Distribution Center nearby",
+            "history": "Milestones: 2 April 2000 Announced, 28 October 2000 Groundbreaking, 18 November 2001 Dedicated",
+            "ordSchedule": "Due to the Pandemic, Ordinance Schedule is by Appointment only.",
+            "seshSchedule": "Due to the Pandemic, Session Schedule is by Appointment only.",
+            "tempCloseSchedule": "2022: Saturday 1 October 2022, Wednesday 23 November 2022 - Thursday 24 November 2022, Saturday 24 December 2022, Saturday 31 December 2022, 2023: Monday 13 March 2023 - Monday 27 March 2023, Saturday 1 April 2023, Tuesday 4 July 2023, Saturday 30 September 2023, Wednesday 22 November 2023 - Thursday 23 November 2023"
+        },
+        {
+            "image":"",
+            "name": "Brigham City Utah Temple",
+            "address": "250 S Main St. Brigham City UT 84302-2560 United States",
+            "telephone": "435-695-2170",
+            "services": "No clothing rental available, No cafeteria available, no patron housing available, Distribution Center nearby",
+            "history":,
+            "ordSchedule": "Due to the Pandemic, Ordinance Schedule is by Appointment only.",
+            "seshSchedule": "Due to the Pandemic, Session Schedule is by Appointment only.",
+            "tempCloseSchedule":
+        },
+        {
+            "image":"",
+            "name": "Brigham City Utah Temple",
+            "address": "250 S Main St. Brigham City UT 84302-2560 United States",
+            "telephone": "435-695-2170",
+            "services": "",
+            "history":,
+            "ordSchedule": "Due to the Pandemic, Ordinance Schedule is by Appointment only.",
+            "seshSchedule": "Due to the Pandemic, Session Schedule is by Appointment only.",
+            "tempCloseSchedule":
+        }
+    ]
+}

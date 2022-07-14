@@ -1,0 +1,63 @@
+@media only screen and (min-width: 64rem) {
+    /*----------MAIN SELECTORS----------*/
+    header {
+        position: sticky;
+        top: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        list-style-type: none;
+        padding: 10px;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        min-height: 100%;
+        margin-bottom: -95px;
+    }
+
+    img {
+        max-width: 550px;
+    }
+
+    footer {
+        background-color: var(--accent2);
+        color: var(--accent3);
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 2fr 2fr 1fr;
+        position: sticky;
+        bottom: 0;
+        height: 95px;
+    }
+    
+    
+    /*-----------CLASS SELECTORS----------*/
+    .descript-box {
+        position: absolute;
+        font-size: 10px;
+        top: 440px;
+        left: 80px;
+        padding: 5px 100px;
+    }
+
+    .social a {
+        display: inline;
+        padding: 0 10px;
+    }
+
+    a:hover {
+        color: #fede77;
+    }
+
+    button:hover {
+        background-color: #38669a;
+        cursor: pointer;
+    }
+
+    .forcast-3Day {
+        grid-column: 2/2;
+    }
+}

@@ -30,16 +30,17 @@
         <a href="index.html"><img src="images/tis-logo.webp" alt="Temple Inn and Suites Logo"></a>
         
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="reservation.html">Reservation</a></li>
-                <li><a href="temple.html">Temple</a></li>
+            <ul class="navigation">
+              <li><span class="ham"></span></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="reservation.html">Reservation</a></li>
+              <li><a href="temple.html">Temple</a></li>
             </ul>
         </nav>
     </div>
     <div class="book-now">
-        <button>Book Your Stay with Us!</button>
+        <button>Book Now!</button>
     </div>
   
   </header>
@@ -47,7 +48,7 @@
   <main>
 
     <picture>
-        <img src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/columbia-river-washington/800x500/columbia-river-temple-lds-761262-wallpaper.jpg" alt="Columbia River Temple Image">
+        <img src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/columbia-river-washington/800x500/columbia-river-temple-lds-761262-wallpaper.jpg" alt="Columbia River Temple Image" loading="lazy">
     </picture>
     <div class="descript-box">
         <p>Columbia River Washington Temple</p>
@@ -74,18 +75,21 @@
       </table>
     </div>
 
-    <div>
+    <div class="forcast-3Day">
       <h2>3-Day Weather Forcast Widget</h2>
       <span id="3-day"></span>
     </div>
+
+    <div class="push"></div>
 
   </main>
 
   <footer>
     <div>
         <h3>Resource/Attribution</h3>
-        <a href="resource-attribution.html">Resource Reference Page</a>
-    </div>
+        <a href="resource-attribution.html">Resource Reference Page</a><br>
+        || Last Modified: <span id="modified"></span> ||
+      </div>
 
     <div class="contact">
         <h3>
@@ -104,6 +108,8 @@
     </div>
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="scripts/toggleMenu.js"></script>
   <script src="scripts/weather.js"></script>
+  <script src="scripts/lastmodified.js"></script>
 
 </html>
