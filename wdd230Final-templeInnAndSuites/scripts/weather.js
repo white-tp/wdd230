@@ -15,17 +15,19 @@ fetch(url)
     document.getElementById("temperature").innerHTML += `${temperature}&deg;`;
     document.getElementById("humidity").innerHTML += `${humidity}%`;
     
-    if (data.alerts[0].event !== "null") {
-        const advisory = data.alerts[0].event;
-        const adDescript = data.alerts[0].description;
-        document.getElementById("advisory").innerHTML += `${advisory}`;
-        document.getElementById("ad-descript").innerHTML += `${adDescript}`;
-        $(document).ready(function() {
-            $("#exit").click(function() {
-                $(".banner").fadeOut();
-            })
-        })
-    } else 
-        return;
+//     const alert = data.alerts[0].event;
+//     if (alert !== data.alerts[0].event) {
+//         return}
+//     else{
+//     const advisory = data;
+//     const adDescript = data.alerts[0].description;
+//     document.getElementById("advisory").innerHTML += `${advisory}`;
+//     document.getElementById("ad-descript").innerHTML += `${adDescript}`;
+//     $(document).ready(function() {
+//         $("#exit").click(function() {
+//             $(".banner").fadeOut();
+//         })
+//     })
+// }
 });
 

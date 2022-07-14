@@ -111,14 +111,15 @@ footer {
 
 
 /* -----------ID SELECTORS----------- */
-#exit {
+/* #exit {
+    opacity: 0;
     display: flex;
     flex: end;
-}
+} */
 
 /* -----------CLASS SELECTORS----------- */
 
-.banner {
+/* .banner {
     position: absolute;
     background-color:var(--accent2);
     width: 97%;
@@ -128,7 +129,7 @@ footer {
     left:0;
     padding: 10px;
     z-index: 99 !important;
-}
+} */
 
 .logo {
     display: flex;
