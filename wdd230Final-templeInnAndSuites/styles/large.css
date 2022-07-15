@@ -18,6 +18,10 @@
         margin-bottom: -95px;
     }
 
+    main.temple {
+        display: inline-block;
+    }
+
     img {
         max-width: 550px;
     }

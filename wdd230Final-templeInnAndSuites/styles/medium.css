@@ -2,4 +2,21 @@
     /*----------MAIN SELECTORS----------*/
 
     /*-----------CLASS SELECTORS----------*/
+    .navigation {
+        display: flex;
+        padding-left: 0;
+      }
+      
+      .navigation li {
+        display: block; /* change state in small view */
+        flex: 1 1 auto;
+      }
+      
+      .navigation a {
+        text-align: center;
+      }
+      
+      .navigation span.ham::before {
+        display: none;
+      }
 }

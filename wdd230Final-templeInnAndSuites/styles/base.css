@@ -48,7 +48,6 @@ header {
     background-color: var(--accent1);
     color: var(--accent3);
     padding: 20px;
-    display: block;
 }
 
 button {
@@ -121,7 +120,7 @@ footer {
 
 .book-now {
     position: absolute;
-    right: 90px;
+    right: 150px;
     top: 35px;
 }
 
@@ -143,8 +142,7 @@ footer {
 
 .navigation {
 	list-style: none;
-    position: relative;
-	padding: 0;
+	padding-left: 160px;
 }
 
 .navigation li:first-child {
@@ -157,17 +155,14 @@ footer {
 
 .navigation a {
 	display: block;
-	padding: 0.75rem;
+	padding: 1rem;
 	text-align: left;
 	text-decoration: none;
-	color: white;
 	transition: 0.5s;
-	font-size: clamp(1rem, 2vmin, 1.5rem);
 }
 
 .navigation span.ham::before {
-	content: "📘 Menu";
-    color: antiquewhite;
+	content: "😺-Menu";
 }
 
 .responsive li {
@@ -175,5 +170,5 @@ footer {
 }
 
 .responsive span.ham::before {
-	content: "📖 Close";
+	content: "🙀-Close";
 }

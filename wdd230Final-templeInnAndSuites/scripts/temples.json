@@ -23,26 +23,26 @@
             "tempCloseSchedule": "2022: Saturday 1 October 2022, Wednesday 23 November 2022 - Thursday 24 November 2022, Saturday 24 December 2022, Saturday 31 December 2022, 2023: Monday 13 March 2023 - Monday 27 March 2023, Saturday 1 April 2023, Tuesday 4 July 2023, Saturday 30 September 2023, Wednesday 22 November 2023 - Thursday 23 November 2023"
         },
         {
-            "image":"",
-            "name": "Brigham City Utah Temple",
-            "address": "250 S Main St. Brigham City UT 84302-2560 United States",
-            "telephone": "435-695-2170",
-            "services": "No clothing rental available, No cafeteria available, no patron housing available, Distribution Center nearby",
-            "history":,
+            "image":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/portland-oregon/2018/400x250/Portland-Oregon-Temple02.jpg",
+            "name": "Portland Oregon Temple",
+            "address": "13600 Kruse Oaks Blvd Lake Oswego OR 97035-8602 United States",
+            "telephone": "503-639-7066",
+            "services": "Clothing rental available, No cafeteria available, no patron housing available, Distribution Center nearby",
+            "history": "Milestones: 7 April 1984 Announced, 20 September 1986 Groundbreaking, 19 August 1989 Dedicated",
             "ordSchedule": "Due to the Pandemic, Ordinance Schedule is by Appointment only.",
             "seshSchedule": "Due to the Pandemic, Session Schedule is by Appointment only.",
-            "tempCloseSchedule":
+            "tempCloseSchedule": "2022: Monday 18 July 2022 - Monday 15 August 2022, Saturday 1 October 2022, Wednesday 23 November 2022 (Limited Operations), Thursday 24 November 2022, Saturday 24 December 2022, Sunday 25 December 2022, Saturday 31 December 2022, 2023: Monday 23 January - Monday 6 February 2023, Monday 24 July 2023 - Monday 7 August 2023"
         },
         {
-            "image":"",
-            "name": "Brigham City Utah Temple",
-            "address": "250 S Main St. Brigham City UT 84302-2560 United States",
-            "telephone": "435-695-2170",
-            "services": "",
-            "history":,
+            "image":"https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/rexburg-idaho/400x250/rexburg-temple-lds-759405-wallpaper.jpg",
+            "name": "Rexburg Idaho Temple",
+            "address": "750 S 2nd E Rexburg ID 83440-5404 United States",
+            "telephone": "208-656-0880",
+            "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "history":"Milestones: 12 December 2003 Announced, 30 July 2005 Groundbreaking, 10 February 2008 Dedicated",
             "ordSchedule": "Due to the Pandemic, Ordinance Schedule is by Appointment only.",
             "seshSchedule": "Due to the Pandemic, Session Schedule is by Appointment only.",
-            "tempCloseSchedule":
+            "tempCloseSchedule": "2022: Saturday 23 July 2022, Saturday 1 October 2022, Wednesday 23 November 2022 - Thursday 24 November 2022, Saturday 24 December 2022, Saturday 31 December 2022, 2023: Saturday 1 April 2023, Tuesday 4 July 2023, Saturday 22 July 2023, Monday 28 August 2023 - Monday 11 September 2023, Saturday 7 October 2023, Thursday 23 November 2023 - Friday 24 November 2023, Tuesday 26 December 2023"
         }
     ]
 }
