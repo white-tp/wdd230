@@ -19,7 +19,8 @@
     }
 
     main.temple {
-        display: inline-block;
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
     img {
@@ -42,7 +43,7 @@
     .descript-box {
         position: absolute;
         font-size: 10px;
-        top: 440px;
+        top: 470px;
         left: 80px;
         padding: 5px 100px;
     }
