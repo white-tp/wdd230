@@ -20,7 +20,7 @@
   </head>
 
   <header>
-
+    <div id="feedback"></div>
     <div class="logo">
         <a href="index.html"><img src="images/tis-logo.webp" alt="Temple Inn and Suites Logo"></a>
         
@@ -37,8 +37,54 @@
   
   </header>
 
-  <main>
+  <main class="reservation-page">
     <h1>Reservation</h1>
+    <!-- Form needs:
+     location, date, number and type of rooms, registrant's full name, 
+     email, phone#, home state or country, and special accomadations/comments
+     FORM VALIDATION NEEDED ON APPROPIATE FORM ELEMENTS-->
+    
+     <form method="get" action="thank-you.html">
+      <fieldset>
+        <legend>When Would you like to stay with us?:</legend>
+        <label class="top">Check-In Date*<input type="date" name="check-in" required></label>
+        <label class="top">Check-Out Date*<input type="date" name="check-out" required></label>
+      </fieldset>
+      <fieldset>
+          <legend>Applicant Information</legend>
+          <label class="top">First Name*<input type="text" name="fname" required></label>
+          <label class="top">Last Name*<input type="text" name="lname" required></label>
+          <label class="top">Home State or Country<input type="text" title="Format: Must be longer than 3 letters and uses alpha characters, hyphens, and/or spaces." name="bname" placeholder="ex: Mexico, USA or Washington" pattern="[a-zA-Z \.\-\p{L}]{3,}"></label>
+          <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label>
+          <label class="top">Phone*<input type="tel" name="phone" placeholder="(123)555-1234" required></label>
+      </fieldset>
+      
+      <fieldset>
+          <legend>Room Selection</legend>
+          <div>Choose the room that best suites your needs:</div>
+          <label class="sidebs"><input type="radio" name="room" value="sizing"> Single Queen</label>
+          <label class="sidebs"><input type="radio" name="room" value="sizing"> Double Queen</label>
+          <label class="sidebs"><input type="radio" name="room" value="sizing"> Single King</label>
+          <label class="sidebs"><input type="radio" name="room" value="sizing"> King With Office Space and Hide-a-bed</label>
+
+          <label class="top">Special Accommodations/Comments</label>
+          <textarea name="textarea" style="width: 750px; height:200px;"></textarea>
+      </fieldset>
+
+      <fieldset>
+        <legend>Payment Method</legend>
+        <div>Choose what form of payment you will be using to pay today:</div>
+        <label class="sidebs"><input type="radio" name="payment" value="card"> Visa</label>
+        <label class="sidebs"><input type="radio" name="payment" value="card"> MasterCard</label>
+        <label class="sidebs"><input type="radio" name="payment" value="card"> AMEX</label>
+        
+        <div>Enter Your Card Number*:</div>
+        <label class="top"><input type="number" name="credit-card" placeholder="1234567890123456" required></label>
+      </fieldset>
+
+      <input type="submit" value="Reserve Your Room" class="submitBtn">
+
+  </form>
   </main>
 
   <footer>
