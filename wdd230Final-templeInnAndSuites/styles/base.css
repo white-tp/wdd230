@@ -122,6 +122,11 @@ a {
     color: var(--accent3);
 }
 
+p a {
+    background-color: #88001B;
+    padding: 2px;
+}
+
 img {
     max-width: 250px;
 }
