@@ -201,11 +201,11 @@ main.temple {
     width: 50px;
     height: 50px;
     margin-left: 170px;
-    background-image: url('../images/icons8-heart-50-blank.png');
+    background-image: url('../images/heart-dislike.svg');
     background-repeat: no-repeat;
 }
 
 .like-yes {
-    background-image: url(../images/icons8-heart-50.png);
+    background-image: url('../images/heart-like.svg');
     background-repeat: no-repeat;
 }
