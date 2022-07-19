@@ -40,6 +40,12 @@
     
     
     /*-----------CLASS SELECTORS----------*/
+    textarea {
+        margin-left: 0px;
+        width: 700px;
+        height: 250px;
+      }
+    
     .descript-box {
         position: absolute;
         font-size: 10px;
