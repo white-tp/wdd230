@@ -66,8 +66,8 @@
           <label class="sidebs"><input type="radio" name="room" value="sizing"> Single King</label>
           <label class="sidebs"><input type="radio" name="room" value="sizing"> King With Office Space and Hide-a-bed</label>
 
-          <label class="top">Special Accommodations/Comments</label>
-          <textarea name="textarea" style="width: 750px; height:200px;"></textarea>
+          <label for="text-area" class="top">Special Accommodations/Comments</label>
+          <textarea id="text-area" name="textarea" style="width: 750px; height:200px;"></textarea>
       </fieldset>
 
       <fieldset>
@@ -77,8 +77,8 @@
         <label class="sidebs"><input type="radio" name="payment" value="card"> MasterCard</label>
         <label class="sidebs"><input type="radio" name="payment" value="card"> AMEX</label>
         
-        <div>Enter Your Card Number*:</div>
-        <label class="top"><input type="number" name="credit-card" placeholder="1234567890123456" required></label>
+        <label for="card-input">Enter Your Card Number*:</label>
+        <input id="card-input" type="text"" name="credit-card" placeholder="xxxx-xxxx-xxxx-xxxx" required>
       </fieldset>
 
       <input type="submit" value="Reserve Your Room" class="submitBtn">
