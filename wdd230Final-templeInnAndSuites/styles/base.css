@@ -129,8 +129,7 @@ a {
 }
 
 p a {
-    background-color: #88001B;
-    padding: 2px;
+    color: var(--accent2);
 }
 
 img {
@@ -193,10 +192,6 @@ main.block-head {
     padding: 10px;
     z-index: 99 !important;
 } */
-
-.push {
-    height: 95px;
-}
 
 .logo {
     display: flex;
