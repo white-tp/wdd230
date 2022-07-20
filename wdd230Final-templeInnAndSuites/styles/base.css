@@ -2,6 +2,7 @@
     --accent1: #88001B;
     --accent2: #255C99;
     --accent3: #FFCA18;
+    --accent4: #FFFFFF;
 }
 
 /* ----------FONTS---------- */
@@ -138,6 +139,7 @@ img {
 
 footer h3 {
     font-size: 10px;
+    color: var(--accent4);
 }
 
 main {
@@ -147,10 +149,14 @@ main {
 
 footer {
     background-color: var(--accent2);
-    color: var(--accent3);
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
+}
+
+footer div,
+footer a {
+    color: var(--accent4);
 }
 
 
