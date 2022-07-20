@@ -42,7 +42,13 @@
         margin-left: 0px;
         width: 700px;
         height: 150px;
-      }
+    }
+
+    .book-now {
+        margin-top: 0px;
+        max-width: 50%;
+        margin: auto;
+    }
     
     .descript-box {
         position: absolute;

@@ -211,6 +211,7 @@ main.block-head {
 .book-now {
     display: flex;
     flex-direction: column;
+    margin-top: 10px;
 }
 
 .book-now a {
@@ -239,7 +240,7 @@ main.block-head {
 
 .navigation {
 	list-style: none;
-	padding-left: 160px;
+	padding-left: 50px;
 }
 
 .navigation li:first-child {
