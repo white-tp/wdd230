@@ -5,7 +5,7 @@
 }
 
 /* ----------FONTS---------- */
-nav, h1, h2, header, footer, form {
+nav, h1, h2, header, footer, form, #feedback {
     font-family: 'Oswald', sans-serif;
 }
 
@@ -165,10 +165,6 @@ footer {
 #feedback {
     background-color: var(--accent3);
     color: var(--accent1);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
     text-align: center;
     padding: .5em;
     display: none;       
@@ -180,13 +176,12 @@ main.temple {
     display: inline-block;
 }
 
-main.reservation-page,
-main.service-page,
-main.thank-you  {
+main.block-head {
     display: block;
     max-width: 800px;
     margin: auto;
 }
+
 /* .banner {
     position: absolute;
     background-color:var(--accent2);
