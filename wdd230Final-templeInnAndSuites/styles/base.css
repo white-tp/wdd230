@@ -20,24 +20,31 @@ table {
     margin: 10px;
     border: thin solid var(--accent1);
     box-shadow: 0 0 20px var(--accent2);
-    }
-    
-    th, td {
-    padding: 5px 15px;
-    border: 1px solid black;
-    font-size: 20px;
-    color: white;
-    background-color: var(--accent1);
-    border-radius: 5px 5px 5px 5px;
-    }
-    
-    td {
-    text-align: center;
-    }
-    
-    thead tr th img {
-      width: 125px;
-    }
+    padding: 5px;
+}
+
+thead tr th {
+    background-image: url('../images/cloud-field.jpg');
+    color: black;
+    font-size: 30px;
+}
+
+th, td {
+padding: 25px 50px;
+border: 1px solid black;
+font-size: 20px;
+color: var(--accent4);
+background-color: var(--accent1);
+border-radius: 5px 5px 5px 5px;
+}
+
+td {
+text-align: center;
+}
+
+thead tr th img {
+    width: 125px;
+}
 
 
 /* ------------FORM------------ */
@@ -161,18 +168,22 @@ footer a {
 
 
 /* -----------ID SELECTORS----------- */
-/* #exit {
-    opacity: 0;
-    display: flex;
-    flex: end;
-} */
-
 #feedback {
     background-color: var(--accent3);
     color: var(--accent1);
     text-align: center;
     padding: .5em;
     display: none;       
+}
+
+#exit {
+    font-size: 40px;
+    padding: 10px;
+}
+
+#exit:hover {
+    color: var(--accent4);
+    cursor: pointer;
 }
 
 /* -----------CLASS SELECTORS----------- */
@@ -187,17 +198,30 @@ main.block-head {
     margin: auto;
 }
 
-/* .banner {
+.col {
+    max-width: 1000px;
+}
+
+.card {
+    background-color: var(--accent1);
+    padding: 20px;
+    color: var(--accent3);
+    margin-bottom: 20px;
+}
+
+.banner {
     position: absolute;
+    color: var(--accent4);
     background-color:var(--accent2);
-    width: 97%;
+    width: 100%;
     margin: 0;
     top: 0;
     right: 0;
     left:0;
+    opacity: 0;
     padding: 10px;
     z-index: 99 !important;
-} */
+}
 
 .logo {
     display: flex;

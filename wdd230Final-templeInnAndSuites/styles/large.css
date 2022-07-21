@@ -1,9 +1,5 @@
 @media only screen and (min-width: 64rem) {
     /*----------MAIN SELECTORS----------*/
-    header {
-        position: sticky;
-        top: 0;
-    }
     
     nav ul li {
         display: inline;
@@ -14,8 +10,6 @@
     main {
         display: grid;
         grid-template-columns: 2fr 2fr;
-        min-height: 100%;
-        margin-bottom: -95px;
     }
 
     main.temple {
@@ -24,7 +18,7 @@
     }
 
     img {
-        max-width: 550px;
+        max-width: 700px;
     }
 
     footer {
@@ -35,14 +29,15 @@
         grid-template-columns: 2fr 2fr 1fr;
         height: 95px;
     }
-    
-    
-    /*-----------CLASS SELECTORS----------*/
+
     textarea {
         margin-left: 0px;
         width: 700px;
         height: 150px;
     }
+    
+    
+    /*-----------CLASS SELECTORS----------*/
 
     .book-now {
         margin-top: 0px;
@@ -53,8 +48,8 @@
     .descript-box {
         position: absolute;
         font-size: 10px;
-        top: 470px;
-        left: 80px;
+        top: 550px;
+        left: 120px;
         padding: 5px 100px;
     }
 
@@ -72,7 +67,18 @@
         cursor: pointer;
     }
 
+    .current-weather {
+        margin-left: 200px;
+    }
+
     .forcast-3Day {
-        grid-column: 2/2;
+        grid-column: 1/span 3;
+        margin-left: 400px;
+
+    }
+
+    #three-day {
+        display: inline-flex;
+        gap: 20px;
     }
 }

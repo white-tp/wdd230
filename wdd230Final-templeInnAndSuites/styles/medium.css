@@ -1,5 +1,8 @@
 @media only screen and (min-width: 40rem) {
     /*----------MAIN SELECTORS----------*/
+    img {
+        max-width: 500px;
+    }
 
     /*-----------CLASS SELECTORS----------*/
     .navigation {
