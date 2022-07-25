@@ -15,11 +15,11 @@ fetch(url)
     document.getElementById("temperature").innerHTML += `${temperature}&deg;`;
     document.getElementById("humidity").innerHTML += `${humidity}%`;
     
-    const alert = 5; //data.alerts[0].event
-    if (alert !== 5) return; //data.alerts[0].event
+    const alert = data.alerts[0].event; //data.alerts[0].event
+    if (alert !== data.alerts[0].event) return; //data.alerts[0].event
     else{
-    const advisory = "This is my fake warning message to show that my banner works! 🙂 (see source code for commented out variables that would pull alerts if there were any available.)"; //data
-    const adDescript = "WARNING! - You are in Danger of Being Awesome! 😉"; //data.alerts[0].description
+    const advisory = data.alerts[0].sender_name; //"This is my fake warning message to show that my banner works! 🙂 (see source code for commented out variables that would pull alerts if there were any available.)"; //data
+    const adDescript = data.alerts[0].description //"WARNING! - You are in Danger of Being Awesome! 😉"; data.alerts[0].description
     document.getElementById("advisory").innerHTML += `${advisory}`;
     document.getElementById("ad-descript").innerHTML += `${adDescript}`;
     document.getElementById("exit").innerHTML += "&times";
